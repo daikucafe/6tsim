@@ -16,3 +16,7 @@ Thumbs.db
 .cache/
 /test-reports
 .pytest_cache
+
+.vscode/
+venv/
+sync.sh
