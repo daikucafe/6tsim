@@ -101,6 +101,14 @@ class AppBase(object):
         return dataPacket
 
     def _send_packet(self, dstIp, packet_length):
+
+        # self.mote.rpl.sent += 1
+        # print("Enviando paquete de app desde el nodo ", str(self.mote.id))
+        # print("Enviados: ",self.mote.rpl.sent)
+        
+        # print("Initial ASN", self.mote.initialASN)
+        # print("Tiempo actual:", self.mote.engine.getAsn()*self.settings.tsch_slotDuration)
+        # print("Rate", str(self.mote.rpl.sent/(self.mote.engine.getAsn()*self.settings.tsch_slotDuration)))
         
         # abort if I'm not ready to send DATA yet
         if self.mote.clear_to_send_EBs_DATA()==False:

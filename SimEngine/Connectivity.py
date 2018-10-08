@@ -615,6 +615,8 @@ class ConnectivityRandom(ConnectivityBase):
         if cls._init:
             return
 
+        print("initializing random")
+
         # attributes specific to ConnectivityRandom
         self.coordinates = {}  # (x, y) indexed by mote_id
         self.pister_hack = PisterHackModel()
@@ -719,6 +721,7 @@ class ConnectivityRandom(ConnectivityBase):
                         self._clear_pdr(target_mote.id, deployed_mote_id, channel=0)
                     # try another random coordinate
                     continue
+        print("Pos: {}".format(str(self.coordinates)))
 
     def _get_mote(self, mote_id):
         # there must be a mote having mote_id. otherwise, the following line

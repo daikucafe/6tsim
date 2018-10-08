@@ -61,6 +61,10 @@ class Rpl(object):
         self._tx_stat                  = {}      # indexed by mote_id
         self.dis_mode = self._get_dis_mode()
 
+        self.last_rate_update = 0 # time terms
+        self.second_last_rate_update = 0
+        self.last_rate = 0
+
     #======================== public ==========================================
 
     # getters/setters
@@ -84,6 +88,30 @@ class Rpl(object):
         # all the same value for a certain mote.
         return self.of.get_preferred_parent()
 
+    def update_rate(self, sent=False):
+        current_time = self.mote.engine.getAsn()*self.settings.tsch_slotDuration
+
+        
+        # print("Current ASN: {}".format(current_time))
+        # print("Last rate update: {}".format(self.last_rate_update))
+        if(current_time == self.last_rate_update):
+            self.last_rate_update = self.second_last_rate_update
+            
+        if(sent):
+            new_rate = 1.0 / ( current_time - self.last_rate_update )
+            print("New rate: {}".format(new_rate))
+            old_rate_frac = ( self.last_rate_update / current_time ) * self.last_rate
+            new_rate_frac = new_rate * ( current_time - self.last_rate_update ) / current_time
+            self.last_rate = new_rate_frac + old_rate_frac
+        else:
+            self.last_rate = ( self.last_rate_update / current_time ) * self.last_rate
+        self.second_last_rate_update = self.last_rate_update
+        self.last_rate_update = current_time
+
+        print("Mote {} - Rate update to: {}".format(self.mote.id, self.last_rate))
+
+        # print("Rate", str(self.mote.rpl.sent/(self.mote.engine.getAsn()*self.settings.tsch_slotDuration)))
+    
     # admin
 
     def start(self):
@@ -195,7 +223,6 @@ class Rpl(object):
                 "packet":    dio,
             }
         )
-
         self.mote.sixlowpan.sendPacket(dio)
 
     def _create_DIO(self, dstIp=None):
@@ -462,6 +489,8 @@ class RplOF0(object):
     def update(self, dio):
         mac_addr = dio['mac']['srcMac']
         rank = dio['app']['rank']
+
+        print("Got new rank",rank)
 
         # update neighbor's rank
         neighbor = self._find_neighbor(mac_addr)

@@ -59,6 +59,8 @@ class Mote(object):
         self.radio                     = radio.Radio(self)
         self.batt                      = batt.Batt(self)
 
+        self.initialASN = self.engine.getAsn()
+
     # ======================= stack ===========================================
 
     # ===== role
@@ -137,6 +139,8 @@ class Mote(object):
 
             # schedule the first listeningForE cell
             self.tsch.schedule_next_listeningForEB_cell()
+
+        # print("Mote {} - Pos: {}".format(self.id, str(self.engine.connectivity.coordinates)))
 
     # ==== EBs and DIOs
 
