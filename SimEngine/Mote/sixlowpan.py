@@ -74,7 +74,7 @@ class Sixlowpan(object):
             }
         )
 
-        self.mote.rpl.update_rate(True)
+        self.mote.rpl.update_ptr()
 
         # add source route, if needed
         if goOn:
@@ -269,7 +269,7 @@ class Sixlowpan(object):
                 }
             )
 
-        self.mote.rpl.update_rate(True)
+        self.mote.rpl.update_ptr()
 
         # cut the forwarded packet into fragments
         if goOn:

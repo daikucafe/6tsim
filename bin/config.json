@@ -9,7 +9,7 @@
             "exec_numMotes":                               [7]
         },
         "regular": {
-            "exec_numSlotframesPerRun":                    1000,
+            "exec_numSlotframesPerRun":                    500,
             "exec_randomSeed":                             "random",
 
             "secjoin_enabled":                             true,

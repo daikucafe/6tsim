@@ -65,6 +65,8 @@ class Rpl(object):
         self.second_last_rate_update = 0
         self.last_rate = 0
 
+        self.transmission_count = 0 # transmitted pkt from the beggining
+
     #======================== public ==========================================
 
     # getters/setters
@@ -88,30 +90,34 @@ class Rpl(object):
         # all the same value for a certain mote.
         return self.of.get_preferred_parent()
 
-    def update_rate(self, sent=False):
-        current_time = self.mote.engine.getAsn()*self.settings.tsch_slotDuration
+    # def update_rate(self, sent=False):
+    #     current_time = self.mote.engine.getAsn()*self.settings.tsch_slotDuration
 
         
-        # print("Current ASN: {}".format(current_time))
-        # print("Last rate update: {}".format(self.last_rate_update))
-        if(current_time == self.last_rate_update):
-            self.last_rate_update = self.second_last_rate_update
-            
-        if(sent):
-            new_rate = 1.0 / ( current_time - self.last_rate_update )
-            print("New rate: {}".format(new_rate))
-            old_rate_frac = ( self.last_rate_update / current_time ) * self.last_rate
-            new_rate_frac = new_rate * ( current_time - self.last_rate_update ) / current_time
-            self.last_rate = new_rate_frac + old_rate_frac
-        else:
-            self.last_rate = ( self.last_rate_update / current_time ) * self.last_rate
-        self.second_last_rate_update = self.last_rate_update
-        self.last_rate_update = current_time
+    #     # print("Current ASN: {}".format(current_time))
+    #     # print("Last rate update: {}".format(self.last_rate_update))
+    #     if(current_time == self.last_rate_update):
+    #         self.last_rate_update = self.second_last_rate_update
 
-        print("Mote {} - Rate update to: {}".format(self.mote.id, self.last_rate))
+    #     if(sent):
+    #         new_rate = 1.0 / ( current_time - self.last_rate_update )
+    #         print("New rate: {}".format(new_rate))
+    #         old_rate_frac = ( self.last_rate_update / current_time ) * self.last_rate
+    #         new_rate_frac = new_rate * ( current_time - self.last_rate_update ) / current_time
+    #         self.last_rate = new_rate_frac + old_rate_frac
+    #     else:
+    #         self.last_rate = ( self.last_rate_update / current_time ) * self.last_rate
+    #     self.second_last_rate_update = self.last_rate_update
+    #     self.last_rate_update = current_time
+
+    #     print("Mote {} - Rate update to: {}".format(self.mote.id, self.last_rate))
 
         # print("Rate", str(self.mote.rpl.sent/(self.mote.engine.getAsn()*self.settings.tsch_slotDuration)))
     
+    def update_ptr(self):
+        self.transmission_count += 1
+        print("Mote {} - Rate update to: {}".format(self.mote.id, self.transmission_count))
+
     # admin
 
     def start(self):
@@ -238,6 +244,7 @@ class Rpl(object):
             'app': {
                 'rank':          self.of.get_rank(),
                 'dodagId':       self.dodagId,
+                'ptr':           self.transmission_count
             },
             'net': {
                 'srcIp':         self.mote.get_ipv6_link_local_addr(),
@@ -490,13 +497,14 @@ class RplOF0(object):
         mac_addr = dio['mac']['srcMac']
         rank = dio['app']['rank']
 
-        print("Got new rank",rank)
+        ptr = dio['app']['ptr']
+        print("Got new rank {} and PTR {}".format(rank,ptr))
 
         # update neighbor's rank
         neighbor = self._find_neighbor(mac_addr)
         if neighbor is None:
             neighbor = self._add_neighbor(mac_addr)
-        self._update_neighbor_rank(neighbor, rank)
+        self._update_neighbor_rank(neighbor, rank, ptr)
 
         # change preferred parent if necessary
         self._update_preferred_parent()
@@ -548,8 +556,9 @@ class RplOF0(object):
                 return neighbor
         return None
 
-    def _update_neighbor_rank(self, neighbor, new_advertised_rank):
+    def _update_neighbor_rank(self, neighbor, new_advertised_rank, new_advertised_ptr):
         neighbor['advertised_rank'] = new_advertised_rank
+        neighbor['advertised_ptr'] = new_advertised_ptr
 
     def _update_neighbor_rank_increase(self, neighbor):
         if neighbor['numTxAck'] == 0:
@@ -582,6 +591,8 @@ class RplOF0(object):
                 (neighbor['advertised_rank'] is None)
                 or
                 (neighbor['rank_increase'] is None)
+                or
+                (neighbor['advertised_ptr'] is None)
             ):
             return None
         elif neighbor['advertised_rank'] == self.INFINITE_RANK:
@@ -597,67 +608,33 @@ class RplOF0(object):
 
     def _update_preferred_parent(self):
         try:
-            candidate = min(self.parents, key=self._calculate_rank)
+            # candidate = min(self.parents, key=self._calculate_rank)
+            print("Trying on cadidate parents",str(self.parents))
+            candidate = min(self.parents, key=lambda p:p["advertised_ptr"])
+            print("Selected: ", candidate)
         except ValueError:
             # self.parents is empty
             candidate = None
 
-        current_rank = self.get_rank()
-        new_rank = self._calculate_rank(candidate)
+        old_preferred_parent = self.preferred_parent
+
+        if (old_preferred_parent is None) and (candidate is None):
+            new_preferred_parent = None
+        else:
+            new_preferred_parent = candidate
+
 
         if (
-                (current_rank is None)
+                (new_preferred_parent is not None)
                 and
-                (new_rank is None)
+                (new_preferred_parent != old_preferred_parent)
             ):
-            # we don't have any available parent
-            rank_difference = None
-        elif (
-                (current_rank is None)
-                and
-                (new_rank is not None)
-            ):
-            rank_difference = new_rank
+
+                self.preferred_parent = new_preferred_parent
+                self.rpl.indicate_preferred_parent_change(
+                    old_preferred = old_preferred_parent['mac_addr'] if old_preferred_parent else None ,
+                    new_preferred = new_preferred_parent['mac_addr']
+                )
+                print("Changing parent")
         else:
-            rank_difference = current_rank - new_rank
-            assert rank_difference >= 0
-
-        # Section 6.4, RFC 8180
-        #
-        #   Per [RFC6552] and [RFC6719], the specification RECOMMENDS the use
-        #   of a boundary value (PARENT_SWITCH_THRESHOLD) to avoid constant
-        #   changes of the parent when ranks are compared.  When evaluating a
-        #   parent that belongs to a smaller path cost than the current minimum
-        #   path, the candidate node is selected as the new parent only if the
-        #   difference between the new path and the current path is greater
-        #   than the defined PARENT_SWITCH_THRESHOLD.
-        if rank_difference is not None:
-            if self.PARENT_SWITCH_THRESHOLD < rank_difference:
-                new_parent = candidate
-            else:
-                new_parent = None
-        else:
-            new_parent = None
-
-        if (
-                (new_parent is not None)
-                and
-                (new_parent != self.preferred_parent)
-            ):
-            # change to the new preferred parent
-
-            if self.preferred_parent is None:
-                old_parent_mac_addr = None
-            else:
-                old_parent_mac_addr = self.preferred_parent['mac_addr']
-
-            self.preferred_parent = new_parent
-            if new_parent is None:
-                new_parent_mac_addr = None
-            else:
-                new_parent_mac_addr = self.preferred_parent['mac_addr']
-
-            self.rpl.indicate_preferred_parent_change(
-                old_preferred = old_parent_mac_addr,
-                new_preferred = new_parent_mac_addr
-            )
+                print("Wont change parent")
