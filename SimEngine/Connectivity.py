@@ -29,6 +29,9 @@ import SimEngine
 from Mote.Mote import Mote
 from Mote import MoteDefines as d
 
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
 # =========================== defines =========================================
 
 CONN_TYPE_TRACE         = "trace"
@@ -721,7 +724,9 @@ class ConnectivityRandom(ConnectivityBase):
                         self._clear_pdr(target_mote.id, deployed_mote_id, channel=0)
                     # try another random coordinate
                     continue
-        print("Pos: {}".format(str(self.coordinates)))
+        # print("Pos: {}".format(str(self.coordinates)))
+        print("Positions:")
+        pp.pprint(self.coordinates)
 
     def _get_mote(self, mote_id):
         # there must be a mote having mote_id. otherwise, the following line

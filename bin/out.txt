@@ -1,2110 +1,823 @@
 parameters 1/1, run 1/1
 initializing random
-Pos: {0: (0, 0), 1: (0.35585867830923, 0.17273032288553714), 2: (0.16157155189051142, 0.015050289034835074), 3: (0.25919629768265706, 0.13377927839125303), 4: (0.268523361291498, 0.11305195926978795)}
-   slotframe_iteration: 0/999
-   slotframe_iteration: 1/999
-   slotframe_iteration: 2/999
-   slotframe_iteration: 3/999
-   slotframe_iteration: 4/999
-   slotframe_iteration: 5/999
-   slotframe_iteration: 6/999
-   slotframe_iteration: 7/999
-   slotframe_iteration: 8/999
-   slotframe_iteration: 9/999
-   slotframe_iteration: 10/999
-   slotframe_iteration: 11/999
-   slotframe_iteration: 12/999
-   slotframe_iteration: 13/999
-   slotframe_iteration: 14/999
-   slotframe_iteration: 15/999
-   slotframe_iteration: 16/999
-   slotframe_iteration: 17/999
-   slotframe_iteration: 18/999
-   slotframe_iteration: 19/999
-   slotframe_iteration: 20/999
-   slotframe_iteration: 21/999
-   slotframe_iteration: 22/999
-   slotframe_iteration: 23/999
-   slotframe_iteration: 24/999
-   slotframe_iteration: 25/999
-   slotframe_iteration: 26/999
-   slotframe_iteration: 27/999
-   slotframe_iteration: 28/999
-   slotframe_iteration: 29/999
-   slotframe_iteration: 30/999
-   slotframe_iteration: 31/999
-   slotframe_iteration: 32/999
-   slotframe_iteration: 33/999
-   slotframe_iteration: 34/999
-   slotframe_iteration: 35/999
-   slotframe_iteration: 36/999
-   slotframe_iteration: 37/999
-   slotframe_iteration: 38/999
-   slotframe_iteration: 39/999
-   slotframe_iteration: 40/999
-   slotframe_iteration: 41/999
-   slotframe_iteration: 42/999
-   slotframe_iteration: 43/999
-   slotframe_iteration: 44/999
-   slotframe_iteration: 45/999
-   slotframe_iteration: 46/999
-   slotframe_iteration: 47/999
-   slotframe_iteration: 48/999
-   slotframe_iteration: 49/999
-   slotframe_iteration: 50/999
-   slotframe_iteration: 51/999
-   slotframe_iteration: 52/999
-   slotframe_iteration: 53/999
-   slotframe_iteration: 54/999
-   slotframe_iteration: 55/999
-   slotframe_iteration: 56/999
-   slotframe_iteration: 57/999
-   slotframe_iteration: 58/999
-   slotframe_iteration: 59/999
-   slotframe_iteration: 60/999
-   slotframe_iteration: 61/999
-   slotframe_iteration: 62/999
-   slotframe_iteration: 63/999
-   slotframe_iteration: 64/999
-   slotframe_iteration: 65/999
-   slotframe_iteration: 66/999
-   slotframe_iteration: 67/999
-   slotframe_iteration: 68/999
-   slotframe_iteration: 69/999
-   slotframe_iteration: 70/999
-   slotframe_iteration: 71/999
-   slotframe_iteration: 72/999
-   slotframe_iteration: 73/999
-   slotframe_iteration: 74/999
-   slotframe_iteration: 75/999
-   slotframe_iteration: 76/999
-   slotframe_iteration: 77/999
-   slotframe_iteration: 78/999
-   slotframe_iteration: 79/999
-   slotframe_iteration: 80/999
-   slotframe_iteration: 81/999
-   slotframe_iteration: 82/999
-   slotframe_iteration: 83/999
-   slotframe_iteration: 84/999
-   slotframe_iteration: 85/999
-('Got new rank', 256)
-   slotframe_iteration: 86/999
-   slotframe_iteration: 87/999
-   slotframe_iteration: 88/999
-   slotframe_iteration: 89/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 1)
-('Initial ASN', 0)
-('Tiempo actual:', 90.97)
-('Rate', '0.0109926349346')
-   slotframe_iteration: 90/999
-   slotframe_iteration: 91/999
-   slotframe_iteration: 92/999
-   slotframe_iteration: 93/999
-   slotframe_iteration: 94/999
-   slotframe_iteration: 95/999
-   slotframe_iteration: 96/999
-   slotframe_iteration: 97/999
-   slotframe_iteration: 98/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 2)
-('Initial ASN', 0)
-('Tiempo actual:', 100.95)
-('Rate', '0.0198117880139')
-   slotframe_iteration: 99/999
-   slotframe_iteration: 100/999
-   slotframe_iteration: 101/999
-   slotframe_iteration: 102/999
-   slotframe_iteration: 103/999
-   slotframe_iteration: 104/999
-   slotframe_iteration: 105/999
-   slotframe_iteration: 106/999
-   slotframe_iteration: 107/999
-   slotframe_iteration: 108/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 3)
-('Initial ASN', 0)
-('Tiempo actual:', 110.96000000000001)
-('Rate', '0.0270367700072')
-   slotframe_iteration: 109/999
-   slotframe_iteration: 110/999
-   slotframe_iteration: 111/999
-   slotframe_iteration: 112/999
-   slotframe_iteration: 113/999
-   slotframe_iteration: 114/999
-   slotframe_iteration: 115/999
-   slotframe_iteration: 116/999
-   slotframe_iteration: 117/999
-   slotframe_iteration: 118/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 4)
-('Initial ASN', 0)
-('Tiempo actual:', 120.79)
-('Rate', '0.0331153241162')
-   slotframe_iteration: 119/999
-   slotframe_iteration: 120/999
-   slotframe_iteration: 121/999
-   slotframe_iteration: 122/999
-   slotframe_iteration: 123/999
-   slotframe_iteration: 124/999
-   slotframe_iteration: 125/999
-   slotframe_iteration: 126/999
-   slotframe_iteration: 127/999
-   slotframe_iteration: 128/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 5)
-('Initial ASN', 0)
-('Tiempo actual:', 130.81)
-('Rate', '0.0382233774176')
-   slotframe_iteration: 129/999
-   slotframe_iteration: 130/999
-   slotframe_iteration: 131/999
-   slotframe_iteration: 132/999
-   slotframe_iteration: 133/999
-   slotframe_iteration: 134/999
-   slotframe_iteration: 135/999
-   slotframe_iteration: 136/999
-   slotframe_iteration: 137/999
-   slotframe_iteration: 138/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 6)
-('Initial ASN', 0)
-('Tiempo actual:', 140.64000000000001)
-('Rate', '0.042662116041')
-   slotframe_iteration: 139/999
-   slotframe_iteration: 140/999
-   slotframe_iteration: 141/999
-   slotframe_iteration: 142/999
-   slotframe_iteration: 143/999
-   slotframe_iteration: 144/999
-   slotframe_iteration: 145/999
-   slotframe_iteration: 146/999
-   slotframe_iteration: 147/999
-   slotframe_iteration: 148/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 7)
-('Initial ASN', 0)
-('Tiempo actual:', 150.79)
-('Rate', '0.0464221765369')
-   slotframe_iteration: 149/999
-   slotframe_iteration: 150/999
-   slotframe_iteration: 151/999
-   slotframe_iteration: 152/999
-   slotframe_iteration: 153/999
-   slotframe_iteration: 154/999
-   slotframe_iteration: 155/999
-   slotframe_iteration: 156/999
-   slotframe_iteration: 157/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 8)
-('Initial ASN', 0)
-('Tiempo actual:', 160.56)
-('Rate', '0.0498256103637')
-   slotframe_iteration: 158/999
-   slotframe_iteration: 159/999
-   slotframe_iteration: 160/999
-   slotframe_iteration: 161/999
-   slotframe_iteration: 162/999
-   slotframe_iteration: 163/999
-   slotframe_iteration: 164/999
-   slotframe_iteration: 165/999
-   slotframe_iteration: 166/999
-   slotframe_iteration: 167/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 9)
-('Initial ASN', 0)
-('Tiempo actual:', 170.23)
-('Rate', '0.0528696469482')
-   slotframe_iteration: 168/999
-   slotframe_iteration: 169/999
-   slotframe_iteration: 170/999
-   slotframe_iteration: 171/999
-   slotframe_iteration: 172/999
-   slotframe_iteration: 173/999
-   slotframe_iteration: 174/999
-   slotframe_iteration: 175/999
-   slotframe_iteration: 176/999
-   slotframe_iteration: 177/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 10)
-('Initial ASN', 0)
-('Tiempo actual:', 180.62)
-('Rate', '0.0553648543904')
-   slotframe_iteration: 178/999
-   slotframe_iteration: 179/999
-   slotframe_iteration: 180/999
-   slotframe_iteration: 181/999
-   slotframe_iteration: 182/999
-('Got new rank', 1024)
-   slotframe_iteration: 183/999
-   slotframe_iteration: 184/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 1)
-('Initial ASN', 0)
-('Tiempo actual:', 187.15)
-('Rate', '0.00534330750735')
-   slotframe_iteration: 185/999
-   slotframe_iteration: 186/999
-   slotframe_iteration: 187/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 11)
-('Initial ASN', 0)
-('Tiempo actual:', 190.64000000000001)
-('Rate', '0.0577003776752')
-   slotframe_iteration: 188/999
-   slotframe_iteration: 189/999
-   slotframe_iteration: 190/999
-   slotframe_iteration: 191/999
-   slotframe_iteration: 192/999
-('Got new rank', 1792)
-   slotframe_iteration: 193/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 2)
-('Initial ASN', 0)
-('Tiempo actual:', 196.83)
-('Rate', '0.0101610526851')
-   slotframe_iteration: 194/999
-   slotframe_iteration: 195/999
-   slotframe_iteration: 196/999
-   slotframe_iteration: 197/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 12)
-('Initial ASN', 0)
-('Tiempo actual:', 200.69)
-('Rate', '0.0597937116947')
-   slotframe_iteration: 198/999
-   slotframe_iteration: 199/999
-   slotframe_iteration: 200/999
-   slotframe_iteration: 201/999
-   slotframe_iteration: 202/999
-   slotframe_iteration: 203/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 3)
-('Initial ASN', 0)
-('Tiempo actual:', 206.56)
-('Rate', '0.0145236250968')
-   slotframe_iteration: 204/999
-   slotframe_iteration: 205/999
-   slotframe_iteration: 206/999
-   slotframe_iteration: 207/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 13)
-('Initial ASN', 0)
-('Tiempo actual:', 210.95000000000002)
-('Rate', '0.0616259777198')
-   slotframe_iteration: 208/999
-   slotframe_iteration: 209/999
-   slotframe_iteration: 210/999
-   slotframe_iteration: 211/999
-   slotframe_iteration: 212/999
-   slotframe_iteration: 213/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 4)
-('Initial ASN', 0)
-('Tiempo actual:', 216.54)
-('Rate', '0.0184723376743')
-   slotframe_iteration: 214/999
-   slotframe_iteration: 215/999
-   slotframe_iteration: 216/999
-   slotframe_iteration: 217/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 14)
-('Initial ASN', 0)
-('Tiempo actual:', 220.97)
-('Rate', '0.0633570167896')
-   slotframe_iteration: 218/999
-   slotframe_iteration: 219/999
-   slotframe_iteration: 220/999
-   slotframe_iteration: 221/999
-   slotframe_iteration: 222/999
-   slotframe_iteration: 223/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 5)
-('Initial ASN', 0)
-('Tiempo actual:', 226.98000000000002)
-('Rate', '0.0220283725438')
-   slotframe_iteration: 224/999
-   slotframe_iteration: 225/999
-('Got new rank', 1792)
-   slotframe_iteration: 226/999
-   slotframe_iteration: 227/999
-   slotframe_iteration: 228/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 15)
-('Initial ASN', 0)
-('Tiempo actual:', 231.41)
-('Rate', '0.0648200164211')
-   slotframe_iteration: 229/999
-   slotframe_iteration: 230/999
-   slotframe_iteration: 231/999
-   slotframe_iteration: 232/999
-('Got new rank', 256)
-   slotframe_iteration: 233/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 6)
-('Initial ASN', 0)
-('Tiempo actual:', 237.1)
-('Rate', '0.0253057781527')
-   slotframe_iteration: 234/999
-   slotframe_iteration: 235/999
-   slotframe_iteration: 236/999
-   slotframe_iteration: 237/999
-   slotframe_iteration: 238/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 16)
-('Initial ASN', 0)
-('Tiempo actual:', 241.58)
-('Rate', '0.0662306482325')
-   slotframe_iteration: 239/999
-   slotframe_iteration: 240/999
-   slotframe_iteration: 241/999
-   slotframe_iteration: 242/999
-   slotframe_iteration: 243/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 7)
-('Initial ASN', 0)
-('Tiempo actual:', 246.6)
-('Rate', '0.0283860502839')
-   slotframe_iteration: 244/999
-   slotframe_iteration: 245/999
-   slotframe_iteration: 246/999
-   slotframe_iteration: 247/999
-   slotframe_iteration: 248/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 17)
-('Initial ASN', 0)
-('Tiempo actual:', 252.01000000000002)
-('Rate', '0.0674576405698')
-   slotframe_iteration: 249/999
-   slotframe_iteration: 250/999
-   slotframe_iteration: 251/999
-   slotframe_iteration: 252/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 8)
-('Initial ASN', 0)
-('Tiempo actual:', 256.16)
-('Rate', '0.0312304809494')
-   slotframe_iteration: 253/999
-   slotframe_iteration: 254/999
-   slotframe_iteration: 255/999
-   slotframe_iteration: 256/999
-   slotframe_iteration: 257/999
-   slotframe_iteration: 258/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 18)
-('Initial ASN', 0)
-('Tiempo actual:', 262.47)
-('Rate', '0.0685792662019')
-   slotframe_iteration: 259/999
-   slotframe_iteration: 260/999
-   slotframe_iteration: 261/999
-   slotframe_iteration: 262/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 9)
-('Initial ASN', 0)
-('Tiempo actual:', 265.8)
-('Rate', '0.0338600451467')
-   slotframe_iteration: 263/999
-   slotframe_iteration: 264/999
-   slotframe_iteration: 265/999
-   slotframe_iteration: 266/999
-   slotframe_iteration: 267/999
-   slotframe_iteration: 268/999
-   slotframe_iteration: 269/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 19)
-('Initial ASN', 0)
-('Tiempo actual:', 272.77)
-('Rate', '0.0696557539319')
-   slotframe_iteration: 270/999
-   slotframe_iteration: 271/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 10)
-('Initial ASN', 0)
-('Tiempo actual:', 275.32)
-('Rate', '0.036321371495')
-   slotframe_iteration: 272/999
-   slotframe_iteration: 273/999
-   slotframe_iteration: 274/999
-   slotframe_iteration: 275/999
-   slotframe_iteration: 276/999
-   slotframe_iteration: 277/999
-   slotframe_iteration: 278/999
-   slotframe_iteration: 279/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 20)
-('Initial ASN', 0)
-('Tiempo actual:', 283.08)
-('Rate', '0.070651405963')
-   slotframe_iteration: 280/999
-   slotframe_iteration: 281/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 11)
-('Initial ASN', 0)
-('Tiempo actual:', 285.59000000000003)
-('Rate', '0.0385167547883')
-   slotframe_iteration: 282/999
-   slotframe_iteration: 283/999
-   slotframe_iteration: 284/999
-   slotframe_iteration: 285/999
-   slotframe_iteration: 286/999
-   slotframe_iteration: 287/999
-   slotframe_iteration: 288/999
-   slotframe_iteration: 289/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 21)
-('Initial ASN', 0)
-('Tiempo actual:', 293.43)
-('Rate', '0.0715673244045')
-   slotframe_iteration: 290/999
-   slotframe_iteration: 291/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 12)
-('Initial ASN', 0)
-('Tiempo actual:', 295.86)
-('Rate', '0.0405597241939')
-   slotframe_iteration: 292/999
-   slotframe_iteration: 293/999
-   slotframe_iteration: 294/999
-   slotframe_iteration: 295/999
-   slotframe_iteration: 296/999
-   slotframe_iteration: 297/999
-   slotframe_iteration: 298/999
-   slotframe_iteration: 299/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 22)
-('Initial ASN', 0)
-('Tiempo actual:', 303.07)
-('Rate', '0.0725904906457')
-   slotframe_iteration: 300/999
-   slotframe_iteration: 301/999
-   slotframe_iteration: 302/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 13)
-('Initial ASN', 0)
-('Tiempo actual:', 306.31)
-('Rate', '0.0424406646861')
-   slotframe_iteration: 303/999
-   slotframe_iteration: 304/999
-   slotframe_iteration: 305/999
-   slotframe_iteration: 306/999
-   slotframe_iteration: 307/999
-   slotframe_iteration: 308/999
-   slotframe_iteration: 309/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 23)
-('Initial ASN', 0)
-('Tiempo actual:', 313.39)
-('Rate', '0.0733909824819')
-   slotframe_iteration: 310/999
-   slotframe_iteration: 311/999
-   slotframe_iteration: 312/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 14)
-('Initial ASN', 0)
-('Tiempo actual:', 316.31)
-('Rate', '0.0442603774778')
-   slotframe_iteration: 313/999
-   slotframe_iteration: 314/999
-   slotframe_iteration: 315/999
-   slotframe_iteration: 316/999
-   slotframe_iteration: 317/999
-   slotframe_iteration: 318/999
-   slotframe_iteration: 319/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 24)
-('Initial ASN', 0)
-('Tiempo actual:', 323.44)
-('Rate', '0.0742023250062')
-   slotframe_iteration: 320/999
-   slotframe_iteration: 321/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 15)
-('Initial ASN', 0)
-('Tiempo actual:', 326.16)
-('Rate', '0.0459896983076')
-   slotframe_iteration: 322/999
-   slotframe_iteration: 323/999
-   slotframe_iteration: 324/999
-   slotframe_iteration: 325/999
-   slotframe_iteration: 326/999
-   slotframe_iteration: 327/999
-   slotframe_iteration: 328/999
-   slotframe_iteration: 329/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 25)
-('Initial ASN', 0)
-('Tiempo actual:', 333.42)
-('Rate', '0.0749805050687')
-   slotframe_iteration: 330/999
-   slotframe_iteration: 331/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 16)
-('Initial ASN', 0)
-('Tiempo actual:', 335.85)
-('Rate', '0.0476403156171')
-   slotframe_iteration: 332/999
-   slotframe_iteration: 333/999
-   slotframe_iteration: 334/999
-   slotframe_iteration: 335/999
-   slotframe_iteration: 336/999
-   slotframe_iteration: 337/999
-   slotframe_iteration: 338/999
-   slotframe_iteration: 339/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 26)
-('Initial ASN', 0)
-('Tiempo actual:', 343.56)
-('Rate', '0.0756781930376')
-   slotframe_iteration: 340/999
-   slotframe_iteration: 341/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 17)
-('Initial ASN', 0)
-('Tiempo actual:', 346.27)
-('Rate', '0.0490946371329')
-   slotframe_iteration: 342/999
-   slotframe_iteration: 343/999
-   slotframe_iteration: 344/999
-   slotframe_iteration: 345/999
-   slotframe_iteration: 346/999
-   slotframe_iteration: 347/999
-   slotframe_iteration: 348/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 27)
-('Initial ASN', 0)
-('Tiempo actual:', 353.09000000000003)
-('Rate', '0.0764677560962')
-   slotframe_iteration: 349/999
-   slotframe_iteration: 350/999
-   slotframe_iteration: 351/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 18)
-('Initial ASN', 0)
-('Tiempo actual:', 355.78000000000003)
-('Rate', '0.0505930631289')
-   slotframe_iteration: 352/999
-   slotframe_iteration: 353/999
-   slotframe_iteration: 354/999
-   slotframe_iteration: 355/999
-   slotframe_iteration: 356/999
-   slotframe_iteration: 357/999
-   slotframe_iteration: 358/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 28)
-('Initial ASN', 0)
-('Tiempo actual:', 362.81)
-('Rate', '0.0771753810534')
-   slotframe_iteration: 359/999
-   slotframe_iteration: 360/999
-   slotframe_iteration: 361/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 19)
-('Initial ASN', 0)
-('Tiempo actual:', 365.90000000000003)
-('Rate', '0.0519267559442')
-   slotframe_iteration: 362/999
-   slotframe_iteration: 363/999
-   slotframe_iteration: 364/999
-   slotframe_iteration: 365/999
-   slotframe_iteration: 366/999
-   slotframe_iteration: 367/999
-   slotframe_iteration: 368/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 29)
-('Initial ASN', 0)
-('Tiempo actual:', 372.99)
-('Rate', '0.0777500737285')
-   slotframe_iteration: 369/999
-   slotframe_iteration: 370/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 20)
-('Initial ASN', 0)
-('Tiempo actual:', 375.67)
-('Rate', '0.0532382143903')
-   slotframe_iteration: 371/999
-   slotframe_iteration: 372/999
-   slotframe_iteration: 373/999
-   slotframe_iteration: 374/999
-   slotframe_iteration: 375/999
-   slotframe_iteration: 376/999
-   slotframe_iteration: 377/999
-   slotframe_iteration: 378/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 30)
-('Initial ASN', 0)
-('Tiempo actual:', 383.40000000000003)
-('Rate', '0.0782472613459')
-   slotframe_iteration: 379/999
-   slotframe_iteration: 380/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 21)
-('Initial ASN', 0)
-('Tiempo actual:', 385.27)
-('Rate', '0.0545072286968')
-   slotframe_iteration: 381/999
-   slotframe_iteration: 382/999
-   slotframe_iteration: 383/999
-   slotframe_iteration: 384/999
-   slotframe_iteration: 385/999
-   slotframe_iteration: 386/999
-   slotframe_iteration: 387/999
-   slotframe_iteration: 388/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 31)
-('Initial ASN', 0)
-('Tiempo actual:', 393.0)
-('Rate', '0.0788804071247')
-   slotframe_iteration: 389/999
-   slotframe_iteration: 390/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 22)
-('Initial ASN', 0)
-('Tiempo actual:', 395.1)
-('Rate', '0.055682105796')
-   slotframe_iteration: 391/999
-   slotframe_iteration: 392/999
-   slotframe_iteration: 393/999
-   slotframe_iteration: 394/999
-   slotframe_iteration: 395/999
-   slotframe_iteration: 396/999
-   slotframe_iteration: 397/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 32)
-('Initial ASN', 0)
-('Tiempo actual:', 402.82)
-('Rate', '0.079439948364')
-   slotframe_iteration: 398/999
-   slotframe_iteration: 399/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 23)
-('Initial ASN', 0)
-('Tiempo actual:', 404.89)
-('Rate', '0.0568055521253')
-   slotframe_iteration: 400/999
-   slotframe_iteration: 401/999
-   slotframe_iteration: 402/999
-   slotframe_iteration: 403/999
-   slotframe_iteration: 404/999
-   slotframe_iteration: 405/999
-   slotframe_iteration: 406/999
-   slotframe_iteration: 407/999
-   slotframe_iteration: 408/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 33)
-('Initial ASN', 0)
-('Tiempo actual:', 413.26)
-('Rate', '0.0798528771234')
-   slotframe_iteration: 409/999
-   slotframe_iteration: 410/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 24)
-('Initial ASN', 0)
-('Tiempo actual:', 415.25)
-('Rate', '0.0577965081276')
-   slotframe_iteration: 411/999
-   slotframe_iteration: 412/999
-   slotframe_iteration: 413/999
-   slotframe_iteration: 414/999
-   slotframe_iteration: 415/999
-   slotframe_iteration: 416/999
-   slotframe_iteration: 417/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 34)
-('Initial ASN', 0)
-('Tiempo actual:', 423.05)
-('Rate', '0.0803687507387')
-   slotframe_iteration: 418/999
-   slotframe_iteration: 419/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 25)
-('Initial ASN', 0)
-('Tiempo actual:', 424.84000000000003)
-('Rate', '0.0588456830807')
-   slotframe_iteration: 420/999
-   slotframe_iteration: 421/999
-   slotframe_iteration: 422/999
-   slotframe_iteration: 423/999
-   slotframe_iteration: 424/999
-   slotframe_iteration: 425/999
-   slotframe_iteration: 426/999
-   slotframe_iteration: 427/999
-   slotframe_iteration: 428/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 35)
-('Initial ASN', 0)
-('Tiempo actual:', 433.35)
-('Rate', '0.0807661243798')
-   slotframe_iteration: 429/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 26)
-('Initial ASN', 0)
-('Tiempo actual:', 435.04)
-('Rate', '0.0597646193453')
-   slotframe_iteration: 430/999
-   slotframe_iteration: 431/999
-   slotframe_iteration: 432/999
-   slotframe_iteration: 433/999
-   slotframe_iteration: 434/999
-   slotframe_iteration: 435/999
-   slotframe_iteration: 436/999
-   slotframe_iteration: 437/999
-   slotframe_iteration: 438/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 36)
-('Initial ASN', 0)
-('Tiempo actual:', 443.63)
-('Rate', '0.0811487050019')
-   slotframe_iteration: 439/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 27)
-('Initial ASN', 0)
-('Tiempo actual:', 444.82)
-('Rate', '0.0606987095904')
-   slotframe_iteration: 440/999
-   slotframe_iteration: 441/999
-   slotframe_iteration: 442/999
-   slotframe_iteration: 443/999
-   slotframe_iteration: 444/999
-   slotframe_iteration: 445/999
-   slotframe_iteration: 446/999
-   slotframe_iteration: 447/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 37)
-('Initial ASN', 0)
-('Tiempo actual:', 453.37)
-('Rate', '0.0816110461654')
-   slotframe_iteration: 448/999
-   slotframe_iteration: 449/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 28)
-('Initial ASN', 0)
-('Tiempo actual:', 455.24)
-('Rate', '0.0615060188033')
-   slotframe_iteration: 450/999
-   slotframe_iteration: 451/999
-   slotframe_iteration: 452/999
-   slotframe_iteration: 453/999
-   slotframe_iteration: 454/999
-   slotframe_iteration: 455/999
-   slotframe_iteration: 456/999
-   slotframe_iteration: 457/999
-('Got new rank', 1792)
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 38)
-('Initial ASN', 0)
-('Tiempo actual:', 463.53000000000003)
-('Rate', '0.0819795913965')
-   slotframe_iteration: 458/999
-   slotframe_iteration: 459/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 29)
-('Initial ASN', 0)
-('Tiempo actual:', 464.74)
-('Rate', '0.0624004819899')
-   slotframe_iteration: 460/999
-   slotframe_iteration: 461/999
-   slotframe_iteration: 462/999
-   slotframe_iteration: 463/999
-   slotframe_iteration: 464/999
-   slotframe_iteration: 465/999
-   slotframe_iteration: 466/999
-   slotframe_iteration: 467/999
-   slotframe_iteration: 468/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 39)
-('Initial ASN', 0)
-('Tiempo actual:', 473.85)
-('Rate', '0.082304526749')
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 30)
-('Initial ASN', 0)
-('Tiempo actual:', 474.32)
-('Rate', '0.0632484398718')
-   slotframe_iteration: 469/999
-   slotframe_iteration: 470/999
-   slotframe_iteration: 471/999
-   slotframe_iteration: 472/999
-   slotframe_iteration: 473/999
-   slotframe_iteration: 474/999
-   slotframe_iteration: 475/999
-   slotframe_iteration: 476/999
-   slotframe_iteration: 477/999
-   slotframe_iteration: 478/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 31)
-('Initial ASN', 0)
-('Tiempo actual:', 484.06)
-('Rate', '0.0640416477296')
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 40)
-('Initial ASN', 0)
-('Tiempo actual:', 484.27)
-('Rate', '0.0825985503954')
-   slotframe_iteration: 479/999
-   slotframe_iteration: 480/999
-   slotframe_iteration: 481/999
-   slotframe_iteration: 482/999
-   slotframe_iteration: 483/999
-   slotframe_iteration: 484/999
-   slotframe_iteration: 485/999
-   slotframe_iteration: 486/999
-   slotframe_iteration: 487/999
-   slotframe_iteration: 488/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 32)
-('Initial ASN', 0)
-('Tiempo actual:', 494.03000000000003)
-('Rate', '0.0647733943283')
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 41)
-('Initial ASN', 0)
-('Tiempo actual:', 494.59000000000003)
-('Rate', '0.0828969449443')
-   slotframe_iteration: 489/999
-   slotframe_iteration: 490/999
-   slotframe_iteration: 491/999
-   slotframe_iteration: 492/999
-   slotframe_iteration: 493/999
-   slotframe_iteration: 494/999
-   slotframe_iteration: 495/999
-   slotframe_iteration: 496/999
-   slotframe_iteration: 497/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 33)
-('Initial ASN', 0)
-('Tiempo actual:', 503.79)
-('Rate', '0.0655034835944')
-   slotframe_iteration: 498/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 42)
-('Initial ASN', 0)
-('Tiempo actual:', 504.81)
-('Rate', '0.0831996196589')
-   slotframe_iteration: 499/999
-   slotframe_iteration: 500/999
-   slotframe_iteration: 501/999
-   slotframe_iteration: 502/999
-   slotframe_iteration: 503/999
-   slotframe_iteration: 504/999
-   slotframe_iteration: 505/999
-   slotframe_iteration: 506/999
-   slotframe_iteration: 507/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 34)
-('Initial ASN', 0)
-('Tiempo actual:', 513.35)
-('Rate', '0.0662316158566')
-   slotframe_iteration: 508/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 43)
-('Initial ASN', 0)
-('Tiempo actual:', 514.41)
-('Rate', '0.0835909099745')
-   slotframe_iteration: 509/999
-   slotframe_iteration: 510/999
-   slotframe_iteration: 511/999
-   slotframe_iteration: 512/999
-   slotframe_iteration: 513/999
-   slotframe_iteration: 514/999
-   slotframe_iteration: 515/999
-   slotframe_iteration: 516/999
-   slotframe_iteration: 517/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 35)
-('Initial ASN', 0)
-('Tiempo actual:', 523.71)
-('Rate', '0.0668308796853')
-   slotframe_iteration: 518/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 44)
-('Initial ASN', 0)
-('Tiempo actual:', 524.6)
-('Rate', '0.0838734273732')
-   slotframe_iteration: 519/999
-   slotframe_iteration: 520/999
-   slotframe_iteration: 521/999
-   slotframe_iteration: 522/999
-   slotframe_iteration: 523/999
-   slotframe_iteration: 524/999
-   slotframe_iteration: 525/999
-   slotframe_iteration: 526/999
-   slotframe_iteration: 527/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 36)
-('Initial ASN', 0)
-('Tiempo actual:', 533.38)
-('Rate', '0.0674940942668')
-   slotframe_iteration: 528/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 45)
-('Initial ASN', 0)
-('Tiempo actual:', 535.03)
-('Rate', '0.084107433228')
-   slotframe_iteration: 529/999
-   slotframe_iteration: 530/999
-   slotframe_iteration: 531/999
-   slotframe_iteration: 532/999
-   slotframe_iteration: 533/999
-   slotframe_iteration: 534/999
-   slotframe_iteration: 535/999
-   slotframe_iteration: 536/999
-   slotframe_iteration: 537/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 37)
-('Initial ASN', 0)
-('Tiempo actual:', 543.51)
-('Rate', '0.0680760243602')
-   slotframe_iteration: 538/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 46)
-('Initial ASN', 0)
-('Tiempo actual:', 545.34)
-('Rate', '0.0843510470532')
-   slotframe_iteration: 539/999
-   slotframe_iteration: 540/999
-   slotframe_iteration: 541/999
-   slotframe_iteration: 542/999
-   slotframe_iteration: 543/999
-   slotframe_iteration: 544/999
-   slotframe_iteration: 545/999
-   slotframe_iteration: 546/999
-   slotframe_iteration: 547/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 38)
-('Initial ASN', 0)
-('Tiempo actual:', 553.98)
-('Rate', '0.0685945340987')
-   slotframe_iteration: 548/999
-   slotframe_iteration: 549/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 47)
-('Initial ASN', 0)
-('Tiempo actual:', 555.61)
-('Rate', '0.0845917100124')
-   slotframe_iteration: 550/999
-   slotframe_iteration: 551/999
-   slotframe_iteration: 552/999
-   slotframe_iteration: 553/999
-   slotframe_iteration: 554/999
-   slotframe_iteration: 555/999
-   slotframe_iteration: 556/999
-   slotframe_iteration: 557/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 39)
-('Initial ASN', 0)
-('Tiempo actual:', 564.12)
-('Rate', '0.0691342267603')
-   slotframe_iteration: 558/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 48)
-('Initial ASN', 0)
-('Tiempo actual:', 565.16)
-('Rate', '0.0849317007573')
-   slotframe_iteration: 559/999
-   slotframe_iteration: 560/999
-   slotframe_iteration: 561/999
-   slotframe_iteration: 562/999
-   slotframe_iteration: 563/999
-   slotframe_iteration: 564/999
-   slotframe_iteration: 565/999
-   slotframe_iteration: 566/999
-   slotframe_iteration: 567/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 40)
-('Initial ASN', 0)
-('Tiempo actual:', 574.21)
-('Rate', '0.0696609254454')
-   slotframe_iteration: 568/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 49)
-('Initial ASN', 0)
-('Tiempo actual:', 574.8100000000001)
-('Rate', '0.0852455594022')
-   slotframe_iteration: 569/999
-   slotframe_iteration: 570/999
-   slotframe_iteration: 571/999
-   slotframe_iteration: 572/999
-   slotframe_iteration: 573/999
-   slotframe_iteration: 574/999
-   slotframe_iteration: 575/999
-   slotframe_iteration: 576/999
-   slotframe_iteration: 577/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 41)
-('Initial ASN', 0)
-('Tiempo actual:', 584.12)
-('Rate', '0.0701910566322')
-   slotframe_iteration: 578/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 50)
-('Initial ASN', 0)
-('Tiempo actual:', 584.99)
-('Rate', '0.0854715465222')
-   slotframe_iteration: 579/999
-   slotframe_iteration: 580/999
-   slotframe_iteration: 581/999
-   slotframe_iteration: 582/999
-   slotframe_iteration: 583/999
-   slotframe_iteration: 584/999
-   slotframe_iteration: 585/999
-   slotframe_iteration: 586/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 42)
-('Initial ASN', 0)
-('Tiempo actual:', 593.79)
-('Rate', '0.0707320769969')
-   slotframe_iteration: 587/999
-   slotframe_iteration: 588/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 51)
-('Initial ASN', 0)
-('Tiempo actual:', 595.0600000000001)
-('Rate', '0.0857056431284')
-   slotframe_iteration: 589/999
-   slotframe_iteration: 590/999
-   slotframe_iteration: 591/999
-   slotframe_iteration: 592/999
-   slotframe_iteration: 593/999
-   slotframe_iteration: 594/999
-   slotframe_iteration: 595/999
-   slotframe_iteration: 596/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 43)
-('Initial ASN', 0)
-('Tiempo actual:', 603.38)
-('Rate', '0.0712652060062')
-   slotframe_iteration: 597/999
-   slotframe_iteration: 598/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 52)
-('Initial ASN', 0)
-('Tiempo actual:', 605.4)
-('Rate', '0.0858936240502')
-   slotframe_iteration: 599/999
-   slotframe_iteration: 600/999
-   slotframe_iteration: 601/999
-   slotframe_iteration: 602/999
-   slotframe_iteration: 603/999
-   slotframe_iteration: 604/999
-   slotframe_iteration: 605/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 44)
-('Initial ASN', 0)
-('Tiempo actual:', 613.04)
-('Rate', '0.0717734568707')
-   slotframe_iteration: 606/999
-   slotframe_iteration: 607/999
-   slotframe_iteration: 608/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 53)
-('Initial ASN', 0)
-('Tiempo actual:', 615.87)
-('Rate', '0.0860571224447')
-   slotframe_iteration: 609/999
-   slotframe_iteration: 610/999
-   slotframe_iteration: 611/999
-   slotframe_iteration: 612/999
-   slotframe_iteration: 613/999
-   slotframe_iteration: 614/999
-   slotframe_iteration: 615/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 45)
-('Initial ASN', 0)
-('Tiempo actual:', 622.67)
-('Rate', '0.0722694203992')
-   slotframe_iteration: 616/999
-   slotframe_iteration: 617/999
-   slotframe_iteration: 618/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 54)
-('Initial ASN', 0)
-('Tiempo actual:', 625.66)
-('Rate', '0.0863088578461')
-   slotframe_iteration: 619/999
-   slotframe_iteration: 620/999
-   slotframe_iteration: 621/999
-   slotframe_iteration: 622/999
-   slotframe_iteration: 623/999
-   slotframe_iteration: 624/999
-   slotframe_iteration: 625/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 46)
-('Initial ASN', 0)
-('Tiempo actual:', 632.4)
-('Rate', '0.0727387729285')
-   slotframe_iteration: 626/999
-   slotframe_iteration: 627/999
-   slotframe_iteration: 628/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 55)
-('Initial ASN', 0)
-('Tiempo actual:', 635.36)
-('Rate', '0.0865650969529')
-   slotframe_iteration: 629/999
-   slotframe_iteration: 630/999
-   slotframe_iteration: 631/999
-   slotframe_iteration: 632/999
-   slotframe_iteration: 633/999
-   slotframe_iteration: 634/999
-   slotframe_iteration: 635/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 47)
-('Initial ASN', 0)
-('Tiempo actual:', 642.39)
-('Rate', '0.0731642771525')
-   slotframe_iteration: 636/999
-   slotframe_iteration: 637/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 56)
-('Initial ASN', 0)
-('Tiempo actual:', 645.32)
-('Rate', '0.0867786524515')
-   slotframe_iteration: 638/999
-   slotframe_iteration: 639/999
-   slotframe_iteration: 640/999
-   slotframe_iteration: 641/999
-   slotframe_iteration: 642/999
-   slotframe_iteration: 643/999
-   slotframe_iteration: 644/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 48)
-('Initial ASN', 0)
-('Tiempo actual:', 652.36)
-('Rate', '0.0735790054571')
-   slotframe_iteration: 645/999
-   slotframe_iteration: 646/999
-   slotframe_iteration: 647/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 57)
-('Initial ASN', 0)
-('Tiempo actual:', 654.83)
-('Rate', '0.0870454927233')
-   slotframe_iteration: 648/999
-   slotframe_iteration: 649/999
-   slotframe_iteration: 650/999
-   slotframe_iteration: 651/999
-   slotframe_iteration: 652/999
-   slotframe_iteration: 653/999
-   slotframe_iteration: 654/999
-   slotframe_iteration: 655/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 49)
-('Initial ASN', 0)
-('Tiempo actual:', 662.5600000000001)
-('Rate', '0.0739555662883')
-   slotframe_iteration: 656/999
-   slotframe_iteration: 657/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 58)
-('Initial ASN', 0)
-('Tiempo actual:', 664.77)
-('Rate', '0.0872482211893')
-   slotframe_iteration: 658/999
-   slotframe_iteration: 659/999
-   slotframe_iteration: 660/999
-   slotframe_iteration: 661/999
-   slotframe_iteration: 662/999
-   slotframe_iteration: 663/999
-   slotframe_iteration: 664/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 50)
-('Initial ASN', 0)
-('Tiempo actual:', 672.41)
-('Rate', '0.0743593938222')
-   slotframe_iteration: 665/999
-   slotframe_iteration: 666/999
-   slotframe_iteration: 667/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 59)
-('Initial ASN', 0)
-('Tiempo actual:', 675.09)
-('Rate', '0.0873957546401')
-   slotframe_iteration: 668/999
-   slotframe_iteration: 669/999
-   slotframe_iteration: 670/999
-   slotframe_iteration: 671/999
-   slotframe_iteration: 672/999
-   slotframe_iteration: 673/999
-   slotframe_iteration: 674/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 51)
-('Initial ASN', 0)
-('Tiempo actual:', 682.48)
-('Rate', '0.0747274645411')
-   slotframe_iteration: 675/999
-   slotframe_iteration: 676/999
-   slotframe_iteration: 677/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 60)
-('Initial ASN', 0)
-('Tiempo actual:', 685.48)
-('Rate', '0.0875299060512')
-   slotframe_iteration: 678/999
-   slotframe_iteration: 679/999
-   slotframe_iteration: 680/999
-   slotframe_iteration: 681/999
-   slotframe_iteration: 682/999
-   slotframe_iteration: 683/999
-   slotframe_iteration: 684/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 52)
-('Initial ASN', 0)
-('Tiempo actual:', 692.17)
-('Rate', '0.0751260528483')
-   slotframe_iteration: 685/999
-   slotframe_iteration: 686/999
-   slotframe_iteration: 687/999
-   slotframe_iteration: 688/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 61)
-('Initial ASN', 0)
-('Tiempo actual:', 695.91)
-('Rate', '0.0876550128609')
-   slotframe_iteration: 689/999
-   slotframe_iteration: 690/999
-   slotframe_iteration: 691/999
-   slotframe_iteration: 692/999
-   slotframe_iteration: 693/999
-   slotframe_iteration: 694/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 53)
-('Initial ASN', 0)
-('Tiempo actual:', 702.24)
-('Rate', '0.0754727728412')
-   slotframe_iteration: 695/999
-   slotframe_iteration: 696/999
-   slotframe_iteration: 697/999
-   slotframe_iteration: 698/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 62)
-('Initial ASN', 0)
-('Tiempo actual:', 706.11)
-('Rate', '0.0878050162156')
-   slotframe_iteration: 699/999
-('Got new rank', 256)
-   slotframe_iteration: 700/999
-   slotframe_iteration: 701/999
-   slotframe_iteration: 702/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 1)
-('Initial ASN', 0)
-('Tiempo actual:', 710.52)
-('Rate', '0.00140741991781')
-   slotframe_iteration: 703/999
-   slotframe_iteration: 704/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 54)
-('Initial ASN', 0)
-('Tiempo actual:', 712.14)
-('Rate', '0.0758277866712')
-   slotframe_iteration: 705/999
-   slotframe_iteration: 706/999
-   slotframe_iteration: 707/999
-   slotframe_iteration: 708/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 63)
-('Initial ASN', 0)
-('Tiempo actual:', 716.46)
-('Rate', '0.0879323339754')
-   slotframe_iteration: 709/999
-   slotframe_iteration: 710/999
-   slotframe_iteration: 711/999
-   slotframe_iteration: 712/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 2)
-('Initial ASN', 0)
-('Tiempo actual:', 720.51)
-('Rate', '0.00277581157791')
-   slotframe_iteration: 713/999
-   slotframe_iteration: 714/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 55)
-('Initial ASN', 0)
-('Tiempo actual:', 722.27)
-('Rate', '0.0761488086173')
-   slotframe_iteration: 715/999
-   slotframe_iteration: 716/999
-   slotframe_iteration: 717/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 64)
-('Initial ASN', 0)
-('Tiempo actual:', 726.02)
-('Rate', '0.0881518415471')
-   slotframe_iteration: 718/999
-   slotframe_iteration: 719/999
-   slotframe_iteration: 720/999
-   slotframe_iteration: 721/999
-   slotframe_iteration: 722/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 3)
-('Initial ASN', 0)
-('Tiempo actual:', 730.88)
-('Rate', '0.00410464098074')
-   slotframe_iteration: 723/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 56)
-('Initial ASN', 0)
-('Tiempo actual:', 732.02)
-('Rate', '0.076500642059')
-   slotframe_iteration: 724/999
-   slotframe_iteration: 725/999
-   slotframe_iteration: 726/999
-   slotframe_iteration: 727/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 65)
-('Initial ASN', 0)
-('Tiempo actual:', 736.0500000000001)
-('Rate', '0.0883092181238')
-   slotframe_iteration: 728/999
-   slotframe_iteration: 729/999
-   slotframe_iteration: 730/999
-   slotframe_iteration: 731/999
-   slotframe_iteration: 732/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 4)
-('Initial ASN', 0)
-('Tiempo actual:', 740.88)
-('Rate', '0.00539898499082')
-   slotframe_iteration: 733/999
-   slotframe_iteration: 734/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 57)
-('Initial ASN', 0)
-('Tiempo actual:', 742.49)
-('Rate', '0.0767687106897')
-   slotframe_iteration: 735/999
-   slotframe_iteration: 736/999
-   slotframe_iteration: 737/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 66)
-('Initial ASN', 0)
-('Tiempo actual:', 746.36)
-('Rate', '0.0884291762688')
-   slotframe_iteration: 738/999
-   slotframe_iteration: 739/999
-   slotframe_iteration: 740/999
-   slotframe_iteration: 741/999
-('Got new rank', 1024)
-   slotframe_iteration: 742/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 5)
-('Initial ASN', 0)
-('Tiempo actual:', 750.62)
-('Rate', '0.00666116010764')
-   slotframe_iteration: 743/999
-   slotframe_iteration: 744/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 58)
-('Initial ASN', 0)
-('Tiempo actual:', 752.52)
-('Rate', '0.0770743634721')
-   slotframe_iteration: 745/999
-   slotframe_iteration: 746/999
-   slotframe_iteration: 747/999
-   slotframe_iteration: 748/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 67)
-('Initial ASN', 0)
-('Tiempo actual:', 756.51)
-('Rate', '0.088564592669')
-   slotframe_iteration: 749/999
-   slotframe_iteration: 750/999
-   slotframe_iteration: 751/999
-   slotframe_iteration: 752/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 6)
-('Initial ASN', 0)
-('Tiempo actual:', 760.61)
-('Rate', '0.00788840535886')
-   slotframe_iteration: 753/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 59)
-('Initial ASN', 0)
-('Tiempo actual:', 762.5)
-('Rate', '0.0773770491803')
-   slotframe_iteration: 754/999
-   slotframe_iteration: 755/999
-   slotframe_iteration: 756/999
-   slotframe_iteration: 757/999
-   slotframe_iteration: 758/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 68)
-('Initial ASN', 0)
-('Tiempo actual:', 766.75)
-('Rate', '0.08868601239')
-   slotframe_iteration: 759/999
-   slotframe_iteration: 760/999
-   slotframe_iteration: 761/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 7)
-('Initial ASN', 0)
-('Tiempo actual:', 770.46)
-('Rate', '0.00908548140072')
-   slotframe_iteration: 762/999
-   slotframe_iteration: 763/999
-   slotframe_iteration: 764/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 60)
-('Initial ASN', 0)
-('Tiempo actual:', 772.96)
-('Rate', '0.0776236803974')
-   slotframe_iteration: 765/999
-   slotframe_iteration: 766/999
-   slotframe_iteration: 767/999
-   slotframe_iteration: 768/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 69)
-('Initial ASN', 0)
-('Tiempo actual:', 777.03)
-('Rate', '0.0887996602448')
-   slotframe_iteration: 769/999
-   slotframe_iteration: 770/999
-   slotframe_iteration: 771/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 8)
-('Initial ASN', 0)
-('Tiempo actual:', 780.44)
-('Rate', '0.010250627851')
-   slotframe_iteration: 772/999
-   slotframe_iteration: 773/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 61)
-('Initial ASN', 0)
-('Tiempo actual:', 782.5)
-('Rate', '0.0779552715655')
-   slotframe_iteration: 774/999
-   slotframe_iteration: 775/999
-   slotframe_iteration: 776/999
-   slotframe_iteration: 777/999
-   slotframe_iteration: 778/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 70)
-('Initial ASN', 0)
-('Tiempo actual:', 787.4)
-('Rate', '0.0889001778004')
-   slotframe_iteration: 779/999
-   slotframe_iteration: 780/999
-   slotframe_iteration: 781/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 9)
-('Initial ASN', 0)
-('Tiempo actual:', 790.32)
-('Rate', '0.0113877922867')
-   slotframe_iteration: 782/999
-   slotframe_iteration: 783/999
-   slotframe_iteration: 784/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 62)
-('Initial ASN', 0)
-('Tiempo actual:', 792.99)
-('Rate', '0.0781850969117')
-   slotframe_iteration: 785/999
-   slotframe_iteration: 786/999
-   slotframe_iteration: 787/999
-   slotframe_iteration: 788/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 71)
-('Initial ASN', 0)
-('Tiempo actual:', 796.96)
-('Rate', '0.0890885364385')
-   slotframe_iteration: 789/999
-   slotframe_iteration: 790/999
-   slotframe_iteration: 791/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 10)
-('Initial ASN', 0)
-('Tiempo actual:', 800.36)
-('Rate', '0.0124943775301')
-   slotframe_iteration: 792/999
-   slotframe_iteration: 793/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 63)
-('Initial ASN', 0)
-('Tiempo actual:', 802.6800000000001)
-('Rate', '0.0784870683211')
-   slotframe_iteration: 794/999
-   slotframe_iteration: 795/999
-   slotframe_iteration: 796/999
-   slotframe_iteration: 797/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 72)
-('Initial ASN', 0)
-('Tiempo actual:', 806.9200000000001)
-('Rate', '0.0892281762752')
-   slotframe_iteration: 798/999
-   slotframe_iteration: 799/999
-   slotframe_iteration: 800/999
-   slotframe_iteration: 801/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 11)
-('Initial ASN', 0)
-('Tiempo actual:', 810.61)
-('Rate', '0.0135700275101')
-   slotframe_iteration: 802/999
-   slotframe_iteration: 803/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 64)
-('Initial ASN', 0)
-('Tiempo actual:', 812.61)
-('Rate', '0.0787585680708')
-   slotframe_iteration: 804/999
-   slotframe_iteration: 805/999
-   slotframe_iteration: 806/999
-   slotframe_iteration: 807/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 73)
-('Initial ASN', 0)
-('Tiempo actual:', 816.62)
-('Rate', '0.0893928632657')
-   slotframe_iteration: 808/999
-   slotframe_iteration: 809/999
-   slotframe_iteration: 810/999
-   slotframe_iteration: 811/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 12)
-('Initial ASN', 0)
-('Tiempo actual:', 820.5)
-('Rate', '0.0146252285192')
-   slotframe_iteration: 812/999
-   slotframe_iteration: 813/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 65)
-('Initial ASN', 0)
-('Tiempo actual:', 822.96)
-('Rate', '0.0789831826577')
-   slotframe_iteration: 814/999
-   slotframe_iteration: 815/999
-   slotframe_iteration: 816/999
-   slotframe_iteration: 817/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 74)
-('Initial ASN', 0)
-('Tiempo actual:', 826.88)
-('Rate', '0.0894930340557')
-   slotframe_iteration: 818/999
-   slotframe_iteration: 819/999
-   slotframe_iteration: 820/999
-   slotframe_iteration: 821/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 13)
-('Initial ASN', 0)
-('Tiempo actual:', 830.59)
-('Rate', '0.0156515248197')
-   slotframe_iteration: 822/999
-   slotframe_iteration: 823/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 66)
-('Initial ASN', 0)
-('Tiempo actual:', 832.83)
-('Rate', '0.0792478657109')
-   slotframe_iteration: 824/999
-   slotframe_iteration: 825/999
-   slotframe_iteration: 826/999
-   slotframe_iteration: 827/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 75)
-('Initial ASN', 0)
-('Tiempo actual:', 836.5)
-('Rate', '0.0896592946802')
-   slotframe_iteration: 828/999
-   slotframe_iteration: 829/999
-   slotframe_iteration: 830/999
-   slotframe_iteration: 831/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 14)
-('Initial ASN', 0)
-('Tiempo actual:', 840.5600000000001)
-('Rate', '0.016655562958')
-   slotframe_iteration: 832/999
-   slotframe_iteration: 833/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 67)
-('Initial ASN', 0)
-('Tiempo actual:', 842.65)
-('Rate', '0.079511066279')
-   slotframe_iteration: 834/999
-   slotframe_iteration: 835/999
-   slotframe_iteration: 836/999
-   slotframe_iteration: 837/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 76)
-('Initial ASN', 0)
-('Tiempo actual:', 846.9300000000001)
-('Rate', '0.0897358695524')
-   slotframe_iteration: 838/999
-   slotframe_iteration: 839/999
-   slotframe_iteration: 840/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 15)
-('Initial ASN', 0)
-('Tiempo actual:', 850.13)
-('Rate', '0.0176443602743')
-   slotframe_iteration: 841/999
-   slotframe_iteration: 842/999
-   slotframe_iteration: 843/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 68)
-('Initial ASN', 0)
-('Tiempo actual:', 852.78)
-('Rate', '0.0797392058913')
-   slotframe_iteration: 844/999
-   slotframe_iteration: 845/999
-   slotframe_iteration: 846/999
-   slotframe_iteration: 847/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 77)
-('Initial ASN', 0)
-('Tiempo actual:', 857.3000000000001)
-('Rate', '0.0898168669077')
-   slotframe_iteration: 848/999
-   slotframe_iteration: 849/999
-   slotframe_iteration: 850/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 16)
-('Initial ASN', 0)
-('Tiempo actual:', 860.19)
-('Rate', '0.0186005417408')
-   slotframe_iteration: 851/999
-   slotframe_iteration: 852/999
-   slotframe_iteration: 853/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 69)
-('Initial ASN', 0)
-('Tiempo actual:', 862.79)
-('Rate', '0.0799731104904')
-   slotframe_iteration: 854/999
-   slotframe_iteration: 855/999
-   slotframe_iteration: 856/999
-   slotframe_iteration: 857/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 78)
-('Initial ASN', 0)
-('Tiempo actual:', 867.49)
-('Rate', '0.0899145811479')
-   slotframe_iteration: 858/999
-   slotframe_iteration: 859/999
-   slotframe_iteration: 860/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 17)
-('Initial ASN', 0)
-('Tiempo actual:', 870.1)
-('Rate', '0.0195379841398')
-   slotframe_iteration: 861/999
-   slotframe_iteration: 862/999
-   slotframe_iteration: 863/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 70)
-('Initial ASN', 0)
-('Tiempo actual:', 873.0500000000001)
-('Rate', '0.0801786839242')
-   slotframe_iteration: 864/999
-   slotframe_iteration: 865/999
-   slotframe_iteration: 866/999
-   slotframe_iteration: 867/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 79)
-('Initial ASN', 0)
-('Tiempo actual:', 877.64)
-('Rate', '0.0900141288')
-   slotframe_iteration: 868/999
-   slotframe_iteration: 869/999
-   slotframe_iteration: 870/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 18)
-('Initial ASN', 0)
-('Tiempo actual:', 880.35)
-('Rate', '0.0204464133583')
-   slotframe_iteration: 871/999
-   slotframe_iteration: 872/999
-   slotframe_iteration: 873/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 71)
-('Initial ASN', 0)
-('Tiempo actual:', 882.85)
-('Rate', '0.0804213626324')
-   slotframe_iteration: 874/999
-   slotframe_iteration: 875/999
-   slotframe_iteration: 876/999
-   slotframe_iteration: 877/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 80)
-('Initial ASN', 0)
-('Tiempo actual:', 887.61)
-('Rate', '0.0901296740686')
-   slotframe_iteration: 878/999
-   slotframe_iteration: 879/999
-   slotframe_iteration: 880/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 19)
-('Initial ASN', 0)
-('Tiempo actual:', 890.13)
-('Rate', '0.021345196769')
-   slotframe_iteration: 881/999
-   slotframe_iteration: 882/999
-   slotframe_iteration: 883/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 72)
-('Initial ASN', 0)
-('Tiempo actual:', 892.98)
-('Rate', '0.0806289054626')
-   slotframe_iteration: 884/999
-   slotframe_iteration: 885/999
-   slotframe_iteration: 886/999
-   slotframe_iteration: 887/999
-   slotframe_iteration: 888/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 81)
-('Initial ASN', 0)
-('Tiempo actual:', 898.0500000000001)
-('Rate', '0.0901954234174')
-   slotframe_iteration: 889/999
-   slotframe_iteration: 890/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 20)
-('Initial ASN', 0)
-('Tiempo actual:', 900.5)
-('Rate', '0.0222098833981')
-   slotframe_iteration: 891/999
-   slotframe_iteration: 892/999
-   slotframe_iteration: 893/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 73)
-('Initial ASN', 0)
-('Tiempo actual:', 903.45)
-('Rate', '0.0808013725165')
-   slotframe_iteration: 894/999
-   slotframe_iteration: 895/999
-   slotframe_iteration: 896/999
-   slotframe_iteration: 897/999
-   slotframe_iteration: 898/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 82)
-('Initial ASN', 0)
-('Tiempo actual:', 908.07)
-('Rate', '0.0903014084817')
-   slotframe_iteration: 899/999
-   slotframe_iteration: 900/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 21)
-('Initial ASN', 0)
-('Tiempo actual:', 910.75)
-('Rate', '0.0230579192973')
-   slotframe_iteration: 901/999
-   slotframe_iteration: 902/999
-   slotframe_iteration: 903/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 74)
-('Initial ASN', 0)
-('Tiempo actual:', 913.8000000000001)
-('Rate', '0.0809805209017')
-   slotframe_iteration: 904/999
-   slotframe_iteration: 905/999
-   slotframe_iteration: 906/999
-   slotframe_iteration: 907/999
-   slotframe_iteration: 908/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 83)
-('Initial ASN', 0)
-('Tiempo actual:', 918.25)
-('Rate', '0.0903893275252')
-   slotframe_iteration: 909/999
-   slotframe_iteration: 910/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 22)
-('Initial ASN', 0)
-('Tiempo actual:', 920.76)
-('Rate', '0.0238933055302')
-   slotframe_iteration: 911/999
-   slotframe_iteration: 912/999
-   slotframe_iteration: 913/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 75)
-('Initial ASN', 0)
-('Tiempo actual:', 923.5600000000001)
-('Rate', '0.0812075014076')
-   slotframe_iteration: 914/999
-   slotframe_iteration: 915/999
-   slotframe_iteration: 916/999
-   slotframe_iteration: 917/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 84)
-('Initial ASN', 0)
-('Tiempo actual:', 927.78)
-('Rate', '0.0905387052965')
-   slotframe_iteration: 918/999
-   slotframe_iteration: 919/999
-   slotframe_iteration: 920/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 23)
-('Initial ASN', 0)
-('Tiempo actual:', 931.12)
-('Rate', '0.0247014348312')
-   slotframe_iteration: 921/999
-   slotframe_iteration: 922/999
-   slotframe_iteration: 923/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 76)
-('Initial ASN', 0)
-('Tiempo actual:', 934.0)
-('Rate', '0.0813704496788')
-   slotframe_iteration: 924/999
-   slotframe_iteration: 925/999
-   slotframe_iteration: 926/999
-   slotframe_iteration: 927/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 85)
-('Initial ASN', 0)
-('Tiempo actual:', 938.13)
-('Rate', '0.0906057795828')
-   slotframe_iteration: 928/999
-   slotframe_iteration: 929/999
-   slotframe_iteration: 930/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 24)
-('Initial ASN', 0)
-('Tiempo actual:', 940.9300000000001)
-('Rate', '0.0255066795617')
-   slotframe_iteration: 931/999
-   slotframe_iteration: 932/999
-   slotframe_iteration: 933/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 77)
-('Initial ASN', 0)
-('Tiempo actual:', 944.07)
-('Rate', '0.0815617485992')
-   slotframe_iteration: 934/999
-   slotframe_iteration: 935/999
-   slotframe_iteration: 936/999
-   slotframe_iteration: 937/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 86)
-('Initial ASN', 0)
-('Tiempo actual:', 948.01)
-('Rate', '0.0907163426546')
-   slotframe_iteration: 938/999
-   slotframe_iteration: 939/999
-   slotframe_iteration: 940/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 25)
-('Initial ASN', 0)
-('Tiempo actual:', 950.87)
-('Rate', '0.0262917118008')
-   slotframe_iteration: 941/999
-   slotframe_iteration: 942/999
-   slotframe_iteration: 943/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 78)
-('Initial ASN', 0)
-('Tiempo actual:', 953.8000000000001)
-('Rate', '0.0817781505557')
-   slotframe_iteration: 944/999
-   slotframe_iteration: 945/999
-   slotframe_iteration: 946/999
-   slotframe_iteration: 947/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 87)
-('Initial ASN', 0)
-('Tiempo actual:', 957.77)
-('Rate', '0.0908360044687')
-   slotframe_iteration: 948/999
-   slotframe_iteration: 949/999
-   slotframe_iteration: 950/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 26)
-('Initial ASN', 0)
-('Tiempo actual:', 960.98)
-('Rate', '0.0270557139587')
-   slotframe_iteration: 951/999
-   slotframe_iteration: 952/999
-   slotframe_iteration: 953/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 79)
-('Initial ASN', 0)
-('Tiempo actual:', 963.71)
-('Rate', '0.0819748679582')
-   slotframe_iteration: 954/999
-   slotframe_iteration: 955/999
-   slotframe_iteration: 956/999
-   slotframe_iteration: 957/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 88)
-('Initial ASN', 0)
-('Tiempo actual:', 967.6700000000001)
-('Rate', '0.0909400932136')
-   slotframe_iteration: 958/999
-   slotframe_iteration: 959/999
-   slotframe_iteration: 960/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 27)
-('Initial ASN', 0)
-('Tiempo actual:', 971.33)
-('Rate', '0.0277969382187')
-   slotframe_iteration: 961/999
-   slotframe_iteration: 962/999
-   slotframe_iteration: 963/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 80)
-('Initial ASN', 0)
-('Tiempo actual:', 973.76)
-('Rate', '0.0821557673349')
-   slotframe_iteration: 964/999
-   slotframe_iteration: 965/999
-   slotframe_iteration: 966/999
-   slotframe_iteration: 967/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 89)
-('Initial ASN', 0)
-('Tiempo actual:', 977.83)
-('Rate', '0.0910178660912')
-   slotframe_iteration: 968/999
-   slotframe_iteration: 969/999
-   slotframe_iteration: 970/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 28)
-('Initial ASN', 0)
-('Tiempo actual:', 981.6800000000001)
-('Rate', '0.0285225328009')
-   slotframe_iteration: 971/999
-   slotframe_iteration: 972/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 81)
-('Initial ASN', 0)
-('Tiempo actual:', 983.69)
-('Rate', '0.0823430145676')
-   slotframe_iteration: 973/999
-   slotframe_iteration: 974/999
-   slotframe_iteration: 975/999
-   slotframe_iteration: 976/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 90)
-('Initial ASN', 0)
-('Tiempo actual:', 987.58)
-('Rate', '0.0911318576723')
-   slotframe_iteration: 977/999
-   slotframe_iteration: 978/999
-   slotframe_iteration: 979/999
-   slotframe_iteration: 980/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 29)
-('Initial ASN', 0)
-('Tiempo actual:', 991.1800000000001)
-('Rate', '0.0292580560544')
-   slotframe_iteration: 981/999
-   slotframe_iteration: 982/999
-   slotframe_iteration: 983/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 82)
-('Initial ASN', 0)
-('Tiempo actual:', 993.95)
-('Rate', '0.082499119674')
-   slotframe_iteration: 984/999
-   slotframe_iteration: 985/999
-   slotframe_iteration: 986/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 91)
-('Initial ASN', 0)
-('Tiempo actual:', 997.53)
-('Rate', '0.0912253265566')
-   slotframe_iteration: 987/999
-   slotframe_iteration: 988/999
-   slotframe_iteration: 989/999
-   slotframe_iteration: 990/999
-('Enviando paquete de app desde el nodo ', '1')
-('Enviados: ', 30)
-('Initial ASN', 0)
-('Tiempo actual:', 1001.24)
-('Rate', '0.0299628460709')
-   slotframe_iteration: 991/999
-   slotframe_iteration: 992/999
-('Enviando paquete de app desde el nodo ', '4')
-('Enviados: ', 83)
-('Initial ASN', 0)
-('Tiempo actual:', 1003.82)
-('Rate', '0.0826841465601')
-   slotframe_iteration: 993/999
-   slotframe_iteration: 994/999
-   slotframe_iteration: 995/999
-   slotframe_iteration: 996/999
-('Enviando paquete de app desde el nodo ', '3')
-('Enviados: ', 92)
-('Initial ASN', 0)
-('Tiempo actual:', 1007.0400000000001)
-('Rategenerating KPIs for simData/20181008-160115-011/exec_numMotes_5.dat
+Pos: {0: (0, 0), 1: (0.2063387207340277, 0.3538923770527139), 2: (0.20534999628428097, 0.08613981699406703), 3: (0.13854827950495596, 0.10827661768782426), 4: (0.1396605322685619, 0.10255886664717451), 5: (0.12401125110155242, 0.05794058616520659), 6: (0.1759222760991639, 0.040759106891684604)}
+   slotframe_iteration: 0/499
+   slotframe_iteration: 1/499
+   slotframe_iteration: 2/499
+   slotframe_iteration: 3/499
+   slotframe_iteration: 4/499
+   slotframe_iteration: 5/499
+   slotframe_iteration: 6/499
+   slotframe_iteration: 7/499
+   slotframe_iteration: 8/499
+   slotframe_iteration: 9/499
+Mote 0 - Rate update to: 1
+   slotframe_iteration: 10/499
+   slotframe_iteration: 11/499
+   slotframe_iteration: 12/499
+   slotframe_iteration: 13/499
+   slotframe_iteration: 14/499
+   slotframe_iteration: 15/499
+   slotframe_iteration: 16/499
+   slotframe_iteration: 17/499
+   slotframe_iteration: 18/499
+   slotframe_iteration: 19/499
+   slotframe_iteration: 20/499
+   slotframe_iteration: 21/499
+   slotframe_iteration: 22/499
+   slotframe_iteration: 23/499
+   slotframe_iteration: 24/499
+   slotframe_iteration: 25/499
+   slotframe_iteration: 26/499
+   slotframe_iteration: 27/499
+   slotframe_iteration: 28/499
+   slotframe_iteration: 29/499
+   slotframe_iteration: 30/499
+   slotframe_iteration: 31/499
+   slotframe_iteration: 32/499
+Mote 0 - Rate update to: 2
+   slotframe_iteration: 33/499
+   slotframe_iteration: 34/499
+   slotframe_iteration: 35/499
+   slotframe_iteration: 36/499
+   slotframe_iteration: 37/499
+   slotframe_iteration: 38/499
+   slotframe_iteration: 39/499
+   slotframe_iteration: 40/499
+   slotframe_iteration: 41/499
+   slotframe_iteration: 42/499
+   slotframe_iteration: 43/499
+   slotframe_iteration: 44/499
+   slotframe_iteration: 45/499
+Mote 5 - Rate update to: 1
+   slotframe_iteration: 46/499
+   slotframe_iteration: 47/499
+   slotframe_iteration: 48/499
+Mote 0 - Rate update to: 3
+   slotframe_iteration: 49/499
+Mote 5 - Rate update to: 2
+   slotframe_iteration: 50/499
+Mote 0 - Rate update to: 4
+   slotframe_iteration: 51/499
+Got new rank 256 and PTR 3
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 3, 'advertised_rank': 256, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 3, 'advertised_rank': 256, 'numTxAck': 0})
+Changing parent
+Mote 5 - Rate update to: 3
+   slotframe_iteration: 52/499
+   slotframe_iteration: 53/499
+   slotframe_iteration: 54/499
+   slotframe_iteration: 55/499
+   slotframe_iteration: 56/499
+Mote 5 - Rate update to: 4
+   slotframe_iteration: 57/499
+   slotframe_iteration: 58/499
+   slotframe_iteration: 59/499
+   slotframe_iteration: 60/499
+   slotframe_iteration: 61/499
+   slotframe_iteration: 62/499
+   slotframe_iteration: 63/499
+Mote 5 - Rate update to: 5
+   slotframe_iteration: 64/499
+   slotframe_iteration: 65/499
+   slotframe_iteration: 66/499
+Mote 5 - Rate update to: 6
+   slotframe_iteration: 67/499
+   slotframe_iteration: 68/499
+   slotframe_iteration: 69/499
+   slotframe_iteration: 70/499
+   slotframe_iteration: 71/499
+   slotframe_iteration: 72/499
+   slotframe_iteration: 73/499
+   slotframe_iteration: 74/499
+Mote 1 - Rate update to: 1
+Mote 3 - Rate update to: 1
+   slotframe_iteration: 75/499
+   slotframe_iteration: 76/499
+Mote 5 - Rate update to: 7
+   slotframe_iteration: 77/499
+   slotframe_iteration: 78/499
+   slotframe_iteration: 79/499
+   slotframe_iteration: 80/499
+   slotframe_iteration: 81/499
+   slotframe_iteration: 82/499
+   slotframe_iteration: 83/499
+Mote 5 - Rate update to: 8
+   slotframe_iteration: 84/499
+   slotframe_iteration: 85/499
+   slotframe_iteration: 86/499
+Mote 3 - Rate update to: 2
+Mote 5 - Rate update to: 9
+   slotframe_iteration: 87/499
+Mote 1 - Rate update to: 2
+   slotframe_iteration: 88/499
+   slotframe_iteration: 89/499
+   slotframe_iteration: 90/499
+   slotframe_iteration: 91/499
+   slotframe_iteration: 92/499
+Mote 5 - Rate update to: 10
+   slotframe_iteration: 93/499
+   slotframe_iteration: 94/499
+   slotframe_iteration: 95/499
+   slotframe_iteration: 96/499
+Mote 5 - Rate update to: 11
+   slotframe_iteration: 97/499
+Mote 0 - Rate update to: 5
+   slotframe_iteration: 98/499
+   slotframe_iteration: 99/499
+Mote 5 - Rate update to: 12
+   slotframe_iteration: 100/499
+   slotframe_iteration: 101/499
+Mote 5 - Rate update to: 13
+   slotframe_iteration: 102/499
+Mote 3 - Rate update to: 3
+   slotframe_iteration: 103/499
+   slotframe_iteration: 104/499
+Mote 5 - Rate update to: 14
+   slotframe_iteration: 105/499
+   slotframe_iteration: 106/499
+Mote 5 - Rate update to: 15
+   slotframe_iteration: 107/499
+Mote 5 - Rate update to: 16
+   slotframe_iteration: 108/499
+Mote 0 - Rate update to: 6
+   slotframe_iteration: 109/499
+   slotframe_iteration: 110/499
+   slotframe_iteration: 111/499
+Mote 5 - Rate update to: 17
+   slotframe_iteration: 112/499
+   slotframe_iteration: 113/499
+Mote 1 - Rate update to: 3
+   slotframe_iteration: 114/499
+   slotframe_iteration: 115/499
+   slotframe_iteration: 116/499
+Mote 5 - Rate update to: 18
+   slotframe_iteration: 117/499
+   slotframe_iteration: 118/499
+Mote 0 - Rate update to: 7
+   slotframe_iteration: 119/499
+   slotframe_iteration: 120/499
+   slotframe_iteration: 121/499
+   slotframe_iteration: 122/499
+   slotframe_iteration: 123/499
+   slotframe_iteration: 124/499
+   slotframe_iteration: 125/499
+   slotframe_iteration: 126/499
+Mote 5 - Rate update to: 19
+   slotframe_iteration: 127/499
+Got new rank 1024 and PTR 16
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 16, 'advertised_rank': 1024, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 16, 'advertised_rank': 1024, 'numTxAck': 0})
+Changing parent
+Mote 3 - Rate update to: 4
+   slotframe_iteration: 128/499
+   slotframe_iteration: 129/499
+   slotframe_iteration: 130/499
+   slotframe_iteration: 131/499
+   slotframe_iteration: 132/499
+   slotframe_iteration: 133/499
+   slotframe_iteration: 134/499
+Mote 3 - Rate update to: 5
+   slotframe_iteration: 135/499
+   slotframe_iteration: 136/499
+Mote 5 - Rate update to: 20
+   slotframe_iteration: 137/499
+   slotframe_iteration: 138/499
+   slotframe_iteration: 139/499
+   slotframe_iteration: 140/499
+   slotframe_iteration: 141/499
+   slotframe_iteration: 142/499
+   slotframe_iteration: 143/499
+Mote 5 - Rate update to: 21
+Mote 3 - Rate update to: 6
+   slotframe_iteration: 144/499
+Mote 3 - Rate update to: 7
+   slotframe_iteration: 145/499
+Mote 0 - Rate update to: 8
+   slotframe_iteration: 146/499
+Mote 5 - Rate update to: 22
+   slotframe_iteration: 147/499
+   slotframe_iteration: 148/499
+   slotframe_iteration: 149/499
+   slotframe_iteration: 150/499
+   slotframe_iteration: 151/499
+   slotframe_iteration: 152/499
+Mote 5 - Rate update to: 23
+   slotframe_iteration: 153/499
+Mote 5 - Rate update to: 24
+Mote 3 - Rate update to: 8
+   slotframe_iteration: 154/499
+   slotframe_iteration: 155/499
+   slotframe_iteration: 156/499
+Mote 5 - Rate update to: 25
+   slotframe_iteration: 157/499
+Got new rank 1792 and PTR 5
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 3, 'advertised_rank': 256, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-03', 'advertised_ptr': 5, 'advertised_rank': 1792, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 3, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+   slotframe_iteration: 158/499
+   slotframe_iteration: 159/499
+   slotframe_iteration: 160/499
+Mote 5 - Rate update to: 26
+   slotframe_iteration: 161/499
+Mote 5 - Rate update to: 27
+   slotframe_iteration: 162/499
+Mote 5 - Rate update to: 28
+Mote 3 - Rate update to: 9
+   slotframe_iteration: 163/499
+Mote 3 - Rate update to: 10
+   slotframe_iteration: 164/499
+   slotframe_iteration: 165/499
+   slotframe_iteration: 166/499
+Mote 5 - Rate update to: 29
+Mote 5 - Rate update to: 30
+Mote 1 - Rate update to: 4
+   slotframe_iteration: 167/499
+Mote 5 - Rate update to: 31
+   slotframe_iteration: 168/499
+Got new rank 1792 and PTR 8
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 3, 'advertised_rank': 256, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-03', 'advertised_ptr': 8, 'advertised_rank': 1792, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 3, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+   slotframe_iteration: 169/499
+Mote 5 - Rate update to: 32
+   slotframe_iteration: 170/499
+   slotframe_iteration: 171/499
+   slotframe_iteration: 172/499
+   slotframe_iteration: 173/499
+Mote 5 - Rate update to: 33
+Mote 3 - Rate update to: 11
+   slotframe_iteration: 174/499
+Mote 5 - Rate update to: 34
+   slotframe_iteration: 175/499
+   slotframe_iteration: 176/499
+Mote 5 - Rate update to: 35
+   slotframe_iteration: 177/499
+   slotframe_iteration: 178/499
+   slotframe_iteration: 179/499
+   slotframe_iteration: 180/499
+   slotframe_iteration: 181/499
+Mote 0 - Rate update to: 9
+   slotframe_iteration: 182/499
+Got new rank 256 and PTR 8
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 16, 'advertised_rank': 1024, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0})
+Changing parent
+Got new rank 256 and PTR 8
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-03', 'advertised_ptr': 8, 'advertised_rank': 1792, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+Mote 3 - Rate update to: 12
+Mote 3 - Rate update to: 13
+   slotframe_iteration: 183/499
+   slotframe_iteration: 184/499
+   slotframe_iteration: 185/499
+   slotframe_iteration: 186/499
+Mote 5 - Rate update to: 36
+   slotframe_iteration: 187/499
+   slotframe_iteration: 188/499
+   slotframe_iteration: 189/499
+   slotframe_iteration: 190/499
+   slotframe_iteration: 191/499
+Mote 3 - Rate update to: 14
+   slotframe_iteration: 192/499
+Mote 3 - Rate update to: 15
+   slotframe_iteration: 193/499
+   slotframe_iteration: 194/499
+   slotframe_iteration: 195/499
+   slotframe_iteration: 196/499
+Mote 5 - Rate update to: 37
+   slotframe_iteration: 197/499
+   slotframe_iteration: 198/499
+   slotframe_iteration: 199/499
+   slotframe_iteration: 200/499
+   slotframe_iteration: 201/499
+   slotframe_iteration: 202/499
+Mote 3 - Rate update to: 16
+   slotframe_iteration: 203/499
+   slotframe_iteration: 204/499
+   slotframe_iteration: 205/499
+Mote 5 - Rate update to: 38
+   slotframe_iteration: 206/499
+   slotframe_iteration: 207/499
+   slotframe_iteration: 208/499
+   slotframe_iteration: 209/499
+   slotframe_iteration: 210/499
+   slotframe_iteration: 211/499
+   slotframe_iteration: 212/499
+Mote 3 - Rate update to: 17
+   slotframe_iteration: 213/499
+   slotframe_iteration: 214/499
+   slotframe_iteration: 215/499
+Mote 5 - Rate update to: 39
+   slotframe_iteration: 216/499
+   slotframe_iteration: 217/499
+   slotframe_iteration: 218/499
+   slotframe_iteration: 219/499
+   slotframe_iteration: 220/499
+   slotframe_iteration: 221/499
+Mote 5 - Rate update to: 40
+   slotframe_iteration: 222/499
+Mote 3 - Rate update to: 18
+   slotframe_iteration: 223/499
+   slotframe_iteration: 224/499
+Mote 1 - Rate update to: 5
+Mote 3 - Rate update to: 19
+   slotframe_iteration: 225/499
+Mote 5 - Rate update to: 41
+   slotframe_iteration: 226/499
+   slotframe_iteration: 227/499
+   slotframe_iteration: 228/499
+   slotframe_iteration: 229/499
+   slotframe_iteration: 230/499
+   slotframe_iteration: 231/499
+   slotframe_iteration: 232/499
+Mote 3 - Rate update to: 20
+   slotframe_iteration: 233/499
+   slotframe_iteration: 234/499
+   slotframe_iteration: 235/499
+Mote 5 - Rate update to: 42
+   slotframe_iteration: 236/499
+   slotframe_iteration: 237/499
+Mote 3 - Rate update to: 21
+   slotframe_iteration: 238/499
+   slotframe_iteration: 239/499
+   slotframe_iteration: 240/499
+   slotframe_iteration: 241/499
+Mote 3 - Rate update to: 22
+   slotframe_iteration: 242/499
+   slotframe_iteration: 243/499
+   slotframe_iteration: 244/499
+   slotframe_iteration: 245/499
+Mote 5 - Rate update to: 43
+   slotframe_iteration: 246/499
+   slotframe_iteration: 247/499
+   slotframe_iteration: 248/499
+   slotframe_iteration: 249/499
+   slotframe_iteration: 250/499
+Mote 5 - Rate update to: 44
+   slotframe_iteration: 251/499
+   slotframe_iteration: 252/499
+Mote 3 - Rate update to: 23
+   slotframe_iteration: 253/499
+   slotframe_iteration: 254/499
+   slotframe_iteration: 255/499
+   slotframe_iteration: 256/499
+Mote 5 - Rate update to: 45
+   slotframe_iteration: 257/499
+   slotframe_iteration: 258/499
+   slotframe_iteration: 259/499
+   slotframe_iteration: 260/499
+   slotframe_iteration: 261/499
+   slotframe_iteration: 262/499
+Mote 3 - Rate update to: 24
+   slotframe_iteration: 263/499
+   slotframe_iteration: 264/499
+   slotframe_iteration: 265/499
+   slotframe_iteration: 266/499
+Mote 5 - Rate update to: 46
+   slotframe_iteration: 267/499
+   slotframe_iteration: 268/499
+   slotframe_iteration: 269/499
+   slotframe_iteration: 270/499
+   slotframe_iteration: 271/499
+   slotframe_iteration: 272/499
+Mote 3 - Rate update to: 25
+   slotframe_iteration: 273/499
+   slotframe_iteration: 274/499
+   slotframe_iteration: 275/499
+Mote 5 - Rate update to: 47
+   slotframe_iteration: 276/499
+   slotframe_iteration: 277/499
+   slotframe_iteration: 278/499
+Got new rank 1024 and PTR 43
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 43, 'advertised_rank': 1024, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 43, 'advertised_rank': 1024, 'numTxAck': 0})
+Changing parent
+Got new rank 1024 and PTR 43
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 43, 'advertised_rank': 1024, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+Mote 1 - Rate update to: 6
+Mote 1 - Rate update to: 7
+Mote 5 - Rate update to: 48
+   slotframe_iteration: 279/499
+   slotframe_iteration: 280/499
+   slotframe_iteration: 281/499
+   slotframe_iteration: 282/499
+Mote 3 - Rate update to: 26
+   slotframe_iteration: 283/499
+   slotframe_iteration: 284/499
+   slotframe_iteration: 285/499
+   slotframe_iteration: 286/499
+Mote 5 - Rate update to: 49
+   slotframe_iteration: 287/499
+   slotframe_iteration: 288/499
+Mote 1 - Rate update to: 8
+   slotframe_iteration: 289/499
+   slotframe_iteration: 290/499
+   slotframe_iteration: 291/499
+   slotframe_iteration: 292/499
+Mote 3 - Rate update to: 27
+   slotframe_iteration: 293/499
+Mote 1 - Rate update to: 9
+   slotframe_iteration: 294/499
+   slotframe_iteration: 295/499
+Mote 3 - Rate update to: 28
+   slotframe_iteration: 296/499
+Got new rank 1024 and PTR 27
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 43, 'advertised_rank': 1024, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-03', 'advertised_ptr': 27, 'advertised_rank': 1024, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-03', 'advertised_ptr': 27, 'advertised_rank': 1024, 'numTxAck': 0})
+Changing parent
+Got new rank 1024 and PTR 27
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-03', 'advertised_ptr': 27, 'advertised_rank': 1024, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+Mote 1 - Rate update to: 10
+Mote 5 - Rate update to: 50
+   slotframe_iteration: 297/499
+   slotframe_iteration: 298/499
+Mote 1 - Rate update to: 11
+   slotframe_iteration: 299/499
+   slotframe_iteration: 300/499
+Mote 3 - Rate update to: 29
+   slotframe_iteration: 301/499
+Mote 3 - Rate update to: 30
+   slotframe_iteration: 302/499
+   slotframe_iteration: 303/499
+   slotframe_iteration: 304/499
+   slotframe_iteration: 305/499
+   slotframe_iteration: 306/499
+Mote 5 - Rate update to: 51
+   slotframe_iteration: 307/499
+   slotframe_iteration: 308/499
+Mote 1 - Rate update to: 12
+   slotframe_iteration: 309/499
+   slotframe_iteration: 310/499
+   slotframe_iteration: 311/499
+Mote 1 - Rate update to: 13
+Mote 3 - Rate update to: 31
+   slotframe_iteration: 312/499
+   slotframe_iteration: 313/499
+   slotframe_iteration: 314/499
+   slotframe_iteration: 315/499
+   slotframe_iteration: 316/499
+Mote 5 - Rate update to: 52
+   slotframe_iteration: 317/499
+Mote 1 - Rate update to: 14
+   slotframe_iteration: 318/499
+   slotframe_iteration: 319/499
+   slotframe_iteration: 320/499
+Mote 5 - Rate update to: 53
+   slotframe_iteration: 321/499
+Mote 3 - Rate update to: 32
+   slotframe_iteration: 322/499
+   slotframe_iteration: 323/499
+   slotframe_iteration: 324/499
+Mote 5 - Rate update to: 54
+   slotframe_iteration: 325/499
+Got new rank 1792 and PTR 8
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 43, 'advertised_rank': 1024, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-01', 'advertised_ptr': 8, 'advertised_rank': 1792, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+Mote 5 - Rate update to: 55
+   slotframe_iteration: 326/499
+   slotframe_iteration: 327/499
+Mote 3 - Rate update to: 33
+Mote 1 - Rate update to: 15
+   slotframe_iteration: 328/499
+   slotframe_iteration: 329/499
+   slotframe_iteration: 330/499
+Mote 3 - Rate update to: 34
+Mote 1 - Rate update to: 16
+   slotframe_iteration: 331/499
+Mote 3 - Rate update to: 35
+   slotframe_iteration: 332/499
+   slotframe_iteration: 333/499
+   slotframe_iteration: 334/499
+   slotframe_iteration: 335/499
+Mote 5 - Rate update to: 56
+   slotframe_iteration: 336/499
+   slotframe_iteration: 337/499
+Mote 1 - Rate update to: 17
+   slotframe_iteration: 338/499
+   slotframe_iteration: 339/499
+   slotframe_iteration: 340/499
+   slotframe_iteration: 341/499
+Mote 3 - Rate update to: 36
+   slotframe_iteration: 342/499
+   slotframe_iteration: 343/499
+   slotframe_iteration: 344/499
+   slotframe_iteration: 345/499
+Mote 5 - Rate update to: 57
+   slotframe_iteration: 346/499
+Mote 1 - Rate update to: 18
+   slotframe_iteration: 347/499
+   slotframe_iteration: 348/499
+   slotframe_iteration: 349/499
+Mote 5 - Rate update to: 58
+   slotframe_iteration: 350/499
+Mote 3 - Rate update to: 37
+   slotframe_iteration: 351/499
+   slotframe_iteration: 352/499
+   slotframe_iteration: 353/499
+   slotframe_iteration: 354/499
+   slotframe_iteration: 355/499
+Mote 5 - Rate update to: 59
+   slotframe_iteration: 356/499
+   slotframe_iteration: 357/499
+Mote 1 - Rate update to: 19
+   slotframe_iteration: 358/499
+   slotframe_iteration: 359/499
+   slotframe_iteration: 360/499
+Mote 3 - Rate update to: 38
+   slotframe_iteration: 361/499
+   slotframe_iteration: 362/499
+   slotframe_iteration: 363/499
+Mote 1 - Rate update to: 20
+   slotframe_iteration: 364/499
+   slotframe_iteration: 365/499
+Mote 5 - Rate update to: 60
+   slotframe_iteration: 366/499
+Mote 3 - Rate update to: 39
+Mote 1 - Rate update to: 21
+   slotframe_iteration: 367/499
+   slotframe_iteration: 368/499
+Mote 3 - Rate update to: 40
+   slotframe_iteration: 369/499
+   slotframe_iteration: 370/499
+Mote 3 - Rate update to: 41
+   slotframe_iteration: 371/499
+   slotframe_iteration: 372/499
+   slotframe_iteration: 373/499
+   slotframe_iteration: 374/499
+Mote 3 - Rate update to: 42
+   slotframe_iteration: 375/499
+Mote 5 - Rate update to: 61
+   slotframe_iteration: 376/499
+Mote 1 - Rate update to: 22
+   slotframe_iteration: 377/499
+Mote 3 - Rate update to: 43
+Mote 0 - Rate update to: 10
+   slotframe_iteration: 378/499
+   slotframe_iteration: 379/499
+   slotframe_iteration: 380/499
+Mote 3 - Rate update to: 44
+   slotframe_iteration: 381/499
+Mote 3 - Rate update to: 45
+   slotframe_iteration: 382/499
+   slotframe_iteration: 383/499
+   slotframe_iteration: 384/499
+   slotframe_iteration: 385/499
+Mote 5 - Rate update to: 62
+   slotframe_iteration: 386/499
+Mote 1 - Rate update to: 23
+   slotframe_iteration: 387/499
+   slotframe_iteration: 388/499
+   slotframe_iteration: 389/499
+Mote 3 - Rate update to: 46
+   slotframe_iteration: 390/499
+Mote 3 - Rate update to: 47
+   slotframe_iteration: 391/499
+Mote 3 - Rate update to: 48
+   slotframe_iteration: 392/499
+Mote 3 - Rate update to: 49
+   slotframe_iteration: 393/499
+Mote 3 - Rate update to: 50
+   slotframe_iteration: 394/499
+Mote 3 - Rate update to: 51
+   slotframe_iteration: 395/499
+Mote 3 - Rate update to: 52
+Mote 5 - Rate update to: 63
+   slotframe_iteration: 396/499
+Mote 1 - Rate update to: 24
+Mote 1 - Rate update to: 25
+   slotframe_iteration: 397/499
+Got new rank 1792 and PTR 23
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-05', 'advertised_ptr': 43, 'advertised_rank': 1024, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-01', 'advertised_ptr': 23, 'advertised_rank': 1792, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+Got new rank 1792 and PTR 23
+('Trying on cadidate parents', "[{'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-03', 'advertised_ptr': 27, 'advertised_rank': 1024, 'numTxAck': 0}, {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-00-00-01', 'advertised_ptr': 23, 'advertised_rank': 1792, 'numTxAck': 0}]")
+('Selected: ', {'numTx': 0, 'rank_increase': 768, 'mac_addr': '02-00-00-00-00-01-00-00', 'advertised_ptr': 8, 'advertised_rank': 256, 'numTxAck': 0})
+Wont change parent
+   slotframe_iteration: 398/499
+Mote 3 - Rate update to: 53
+Mote 5 - Rate update to: 64
+   slotframe_iteration: 399/499
+Mote 3 - Rate update to: 54
+   slotframe_iteration: 400/499
+   slotframe_iteration: 401/499
+   slotframe_iteration: 402/499
+   slotframe_iteration: 403/499
+   slotframe_iteration: 404/499
+   slotframe_iteration: 405/499
+Mote 5 - Rate update to: 65
+   slotframe_iteration: 406/499
+   slotframe_iteration: 407/499
+Mote 1 - Rate update to: 26
+   slotframe_iteration: 408/499
+Mote 3 - Rate update to: 55
+   slotframe_iteration: 409/499
+   slotframe_iteration: 410/499
+Mote 3 - Rate update to: 56
+   slotframe_iteration: 411/499
+   slotframe_iteration: 412/499
+   slotframe_iteration: 413/499
+   slotframe_iteration: 414/499
+   slotframe_iteration: 415/499
+Mote 5 - Rate update to: 66
+Mote 3 - Rate update to: 57
+   slotframe_iteration: 416/499
+Mote 1 - Rate update to: 27
+   slotfrgenerating KPIs for simData/20181008-233940-022/exec_numMotes_7.dat
 {
     "0": {
         "0": {
             "packet_drops": {
-                "max_retries": 2
+                "max_retries": 1
             }
         }, 
         "1": {
-            "upstream_reliability": 0.2, 
-            "avg_hops": 1.0, 
-            "upstream_num_rx": 6, 
-            "avg_current_uA": 19.71676828699813, 
-            "latency_avg_s": 74.23666666666666, 
-            "upstream_num_tx": 30, 
-            "sync_time_s": 473.69, 
-            "join_time_s": 482.78000000000003, 
-            "latency_max_s": 149.9, 
+            "upstream_reliability": 0.5217391304347826, 
+            "avg_hops": 2.0, 
             "packet_drops": {
-                "max_retries": 10, 
-                "txqueue_full": 17
+                "max_retries": 4
             }, 
-            "latency_min_s": 27.63, 
-            "lifetime_AA_years": 12.737460260007538, 
-            "upstream_num_lost": 24
+            "upstream_num_rx": 12, 
+            "latency_avg_s": 59.076666666666675, 
+            "upstream_num_tx": 23, 
+            "sync_time_s": 75.75, 
+            "join_time_s": 227.25, 
+            "latency_max_s": 76.77, 
+            "avg_current_uA": 23.692398350029446, 
+            "latency_min_s": 25.19, 
+            "lifetime_AA_years": 10.600089902299967, 
+            "upstream_num_lost": 11
         }, 
         "2": {
-            "sync_time_s": 840.32, 
-            "avg_current_uA": 18.179514380009458, 
-            "WARNING": "mote didn't join", 
-            "lifetime_AA_years": 13.81453581552077
+            "WARNING": "mote didn't join"
         }, 
         "3": {
-            "upstream_reliability": 0.44565217391304346, 
-            "avg_hops": 1.0, 
-            "upstream_num_rx": 41, 
-            "avg_current_uA": 24.14218638358686, 
-            "latency_avg_s": 44.88219512195122, 
-            "upstream_num_tx": 92, 
-            "sync_time_s": 30.3, 
-            "join_time_s": 59.59, 
-            "latency_max_s": 163.07, 
+            "upstream_reliability": 0.8918918918918919, 
+            "avg_hops": 1.0909090909090908, 
+            "upstream_num_rx": 33, 
+            "avg_current_uA": 27.50005892751914, 
+            "latency_avg_s": 11.918181818181814, 
+            "upstream_num_tx": 37, 
+            "sync_time_s": 75.75, 
+            "join_time_s": 104.03, 
+            "latency_max_s": 74.79, 
             "packet_drops": {
-                "max_retries": 12, 
-                "txqueue_full": 122
+                "max_retries": 2, 
+                "txqueue_full": 5
             }, 
-            "latency_min_s": 0.03, 
-            "lifetime_AA_years": 10.402601840658264, 
-            "upstream_num_lost": 51
+            "latency_min_s": 0.15, 
+            "lifetime_AA_years": 9.132400522243962, 
+            "upstream_num_lost": 4
         }, 
         "4": {
-            "upstream_reliability": 0.30120481927710846, 
-            "avg_hops": 2.0, 
-            "upstream_num_rx": 25, 
-            "avg_current_uA": 23.76071020563596, 
-            "latency_avg_s": 99.2484, 
-            "upstream_num_tx": 83, 
-            "sync_time_s": 169.68, 
-            "join_time_s": 180.79, 
-            "latency_max_s": 187.72, 
+            "WARNING": "mote didn't join"
+        }, 
+        "5": {
+            "upstream_reliability": 0.8666666666666667, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 39, 
+            "avg_current_uA": 28.205009480971874, 
+            "latency_avg_s": 17.752307692307696, 
+            "upstream_num_tx": 45, 
+            "sync_time_s": 46.46, 
+            "join_time_s": 50.5, 
+            "latency_max_s": 61.28, 
             "packet_drops": {
-                "max_retries": 3
+                "max_retries": 4, 
+                "txqueue_full": 7
             }, 
-            "latency_min_s": 1.72, 
-            "lifetime_AA_years": 10.569614726913576, 
-            "upstream_num_lost": 58
+            "latency_min_s": 0.33, 
+            "lifetime_AA_years": 8.904147069365276, 
+            "upstream_num_lost": 6
+        }, 
+        "6": {
+            "WARNING": "mote didn't join"
         }
     }
 }
-KPIs saved in simData/20181008-160115-011/exec_numMotes_5.dat.kpi
-Plots are saved in the simData/20181008-160115-011 folder.
-', '0.0913568477915')
-   slotframe_iteration: 997/999
-   slotframe_iteration: 998/999
-   slotframe_iteration: 999/999
-simulation ended after 16s (1 runs).
+KPIs saved in simData/20181008-233940-022/exec_numMotes_7.dat.kpi
+Plots are saved in the simData/20181008-233940-022 folder.
+ame_iteration: 417/499
+   slotframe_iteration: 418/499
+   slotframe_iteration: 419/499
+Mote 3 - Rate update to: 58
+   slotframe_iteration: 420/499
+Mote 3 - Rate update to: 59
+   slotframe_iteration: 421/499
+   slotframe_iteration: 422/499
+   slotframe_iteration: 423/499
+   slotframe_iteration: 424/499
+Mote 5 - Rate update to: 67
+   slotframe_iteration: 425/499
+   slotframe_iteration: 426/499
+Mote 1 - Rate update to: 28
+   slotframe_iteration: 427/499
+   slotframe_iteration: 428/499
+   slotframe_iteration: 429/499
+   slotframe_iteration: 430/499
+Mote 3 - Rate update to: 60
+   slotframe_iteration: 431/499
+Mote 1 - Rate update to: 29
+   slotframe_iteration: 432/499
+   slotframe_iteration: 433/499
+   slotframe_iteration: 434/499
+   slotframe_iteration: 435/499
+Mote 5 - Rate update to: 68
+   slotframe_iteration: 436/499
+   slotframe_iteration: 437/499
+Mote 1 - Rate update to: 30
+   slotframe_iteration: 438/499
+Mote 3 - Rate update to: 61
+   slotframe_iteration: 439/499
+   slotframe_iteration: 440/499
+Mote 3 - Rate update to: 62
+   slotframe_iteration: 441/499
+   slotframe_iteration: 442/499
+   slotframe_iteration: 443/499
+   slotframe_iteration: 444/499
+Mote 5 - Rate update to: 69
+   slotframe_iteration: 445/499
+   slotframe_iteration: 446/499
+   slotframe_iteration: 447/499
+Mote 1 - Rate update to: 31
+   slotframe_iteration: 448/499
+   slotframe_iteration: 449/499
+   slotframe_iteration: 450/499
+Mote 3 - Rate update to: 63
+   slotframe_iteration: 451/499
+   slotframe_iteration: 452/499
+Mote 5 - Rate update to: 70
+   slotframe_iteration: 453/499
+   slotframe_iteration: 454/499
+Mote 5 - Rate update to: 71
+   slotframe_iteration: 455/499
+   slotframe_iteration: 456/499
+   slotframe_iteration: 457/499
+Mote 1 - Rate update to: 32
+   slotframe_iteration: 458/499
+   slotframe_iteration: 459/499
+   slotframe_iteration: 460/499
+Mote 3 - Rate update to: 64
+   slotframe_iteration: 461/499
+   slotframe_iteration: 462/499
+   slotframe_iteration: 463/499
+   slotframe_iteration: 464/499
+Mote 5 - Rate update to: 72
+   slotframe_iteration: 465/499
+   slotframe_iteration: 466/499
+   slotframe_iteration: 467/499
+Mote 1 - Rate update to: 33
+   slotframe_iteration: 468/499
+   slotframe_iteration: 469/499
+   slotframe_iteration: 470/499
+Mote 3 - Rate update to: 65
+   slotframe_iteration: 471/499
+   slotframe_iteration: 472/499
+   slotframe_iteration: 473/499
+   slotframe_iteration: 474/499
+Mote 5 - Rate update to: 73
+   slotframe_iteration: 475/499
+   slotframe_iteration: 476/499
+   slotframe_iteration: 477/499
+Mote 1 - Rate update to: 34
+   slotframe_iteration: 478/499
+   slotframe_iteration: 479/499
+   slotframe_iteration: 480/499
+Mote 3 - Rate update to: 66
+   slotframe_iteration: 481/499
+Mote 1 - Rate update to: 35
+   slotframe_iteration: 482/499
+   slotframe_iteration: 483/499
+   slotframe_iteration: 484/499
+   slotframe_iteration: 485/499
+Mote 5 - Rate update to: 74
+   slotframe_iteration: 486/499
+   slotframe_iteration: 487/499
+Mote 1 - Rate update to: 36
+   slotframe_iteration: 488/499
+   slotframe_iteration: 489/499
+   slotframe_iteration: 490/499
+Mote 3 - Rate update to: 67
+Mote 3 - Rate update to: 68
+   slotframe_iteration: 491/499
+   slotframe_iteration: 492/499
+   slotframe_iteration: 493/499
+Mote 3 - Rate update to: 69
+   slotframe_iteration: 494/499
+Mote 5 - Rate update to: 75
+   slotframe_iteration: 495/499
+   slotframe_iteration: 496/499
+   slotframe_iteration: 497/499
+Mote 1 - Rate update to: 37
+   slotframe_iteration: 498/499
+   slotframe_iteration: 499/499
+simulation ended after 20s (1 runs).
 calling "python compute_kpis.py"
 calling "python plot.py"

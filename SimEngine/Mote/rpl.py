@@ -23,6 +23,12 @@ import SimEngine
 import MoteDefines as d
 from trickle_timer import TrickleTimer
 
+from colorama import init
+from colorama import Fore, Back, Style
+init()
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
 # =========================== defines =========================================
 
 # =========================== helpers =========================================
@@ -116,8 +122,9 @@ class Rpl(object):
     
     def update_ptr(self):
         self.transmission_count += 1
+        print(Fore.GREEN)
         print("Mote {} - Rate update to: {}".format(self.mote.id, self.transmission_count))
-
+        print(Style.RESET_ALL)
     # admin
 
     def start(self):
@@ -135,6 +142,7 @@ class Rpl(object):
 
     def indicate_tx(self, cell, dstMac, isACKed):
         self.of.update_etx(cell, dstMac, isACKed)
+        self.update_ptr()
 
     def indicate_preferred_parent_change(self, old_preferred, new_preferred):
         # log
@@ -142,7 +150,7 @@ class Rpl(object):
             SimEngine.SimLog.LOG_RPL_CHURN,
             {
                 "_mote_id":        self.mote.id,
-                "rank":            self.of.get_rank(),
+                "ptr":            self.transmission_count,
                 "preferredParent": new_preferred
             }
         )
@@ -486,6 +494,7 @@ class RplOF0(object):
         self.neighbors = []
         self.rank = None
         self.preferred_parent = None
+        self.etx_table = {}
 
     @property
     def parents(self):
@@ -518,23 +527,39 @@ class RplOF0(object):
         else:
             return self.preferred_parent['mac_addr']
 
+    def get_etx(self, mac_addr):
+        if mac_addr not in self.etx_table:
+            return None
+        if self.etx_table[mac_addr]['numTx'] == 0:
+            return 0
+        if self.etx_table[mac_addr]['numTxAck'] == 0:
+            return 3
+        return float(self.etx_table[mac_addr]['numTx'])/self.etx_table[mac_addr]['numTxAck']
+
     def update_etx(self, cell, mac_addr, isACKed):
+        if mac_addr not in self.etx_table:
+            pdr_data = {"numTx": 0, "numTxAck": 0}
+            self.etx_table[mac_addr] = pdr_data
+        else:
+            pdr_data = self.etx_table[mac_addr]
+
+        pdr_data['numTx'] += 1
+
+        if isACKed:
+            pdr_data['numTxAck'] += 1
+
         neighbor = self._find_neighbor(mac_addr)
+        print(Fore.BLUE+"Indicated TX from node {}, to MAC {} with ACK: {}".format(self.rpl.mote.id,mac_addr,isACKed))
+        print("and neighbor found" if neighbor is not None else "and neighbor not found :(")
+        print(Fore.MAGENTA+"ETX: {}".format(self.get_etx(mac_addr)))
+        print(Style.RESET_ALL)
+
         if neighbor is None:
-            # we've not received DIOs from this neighbor; ignore the neighbor
             return
-        elif (
-                (cell.mac_addr == mac_addr)
-                and
-                (d.CELLOPTION_TX in cell.options)
-                and
-                (d.CELLOPTION_SHARED not in cell.options)
-            ):
-            neighbor['numTx'] += 1
-            if isACKed is True:
-                neighbor['numTxAck'] += 1
-            self._update_neighbor_rank_increase(neighbor)
-            self._update_preferred_parent()
+
+        self._update_neighbor_rank_increase(neighbor)
+        self._update_preferred_parent()
+        
 
     def _add_neighbor(self, mac_addr):
         assert self._find_neighbor(mac_addr) is None
@@ -566,6 +591,8 @@ class RplOF0(object):
             etx = None
         else:
             etx = float(neighbor['numTx']) / neighbor['numTxAck']
+
+        # print(Fore.MAGENTA + "Node {} - Got an ETX value of {}".format(self.rpl.mote.id,etx))
 
         if etx is None:
             step_of_rank = self.DEFAULT_STEP_OF_RANK
@@ -609,9 +636,16 @@ class RplOF0(object):
     def _update_preferred_parent(self):
         try:
             # candidate = min(self.parents, key=self._calculate_rank)
-            print("Trying on cadidate parents",str(self.parents))
+            # print("Trying on cadidate parents {}".format(str(self.parents)))
+            print(Fore.YELLOW + "From mote {} neighbors ".format(self.rpl.mote.id))
+            pp.pprint(self.neighbors)
+            print(Fore.CYAN + "are suitable parents")
+            pp.pprint(self.parents)
             candidate = min(self.parents, key=lambda p:p["advertised_ptr"])
-            print("Selected: ", candidate)
+            print(Fore.RED + "Selected as candidate {}".format(str(candidate)))
+            print(Style.RESET_ALL)
+            if(len(self.neighbors)>1):
+                print("PARAR AQUI")
         except ValueError:
             # self.parents is empty
             candidate = None
