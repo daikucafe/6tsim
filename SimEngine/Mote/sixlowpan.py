@@ -75,7 +75,7 @@ class Sixlowpan(object):
         )
 
         # self.mote.rpl.update_ptr()
-        print("TX")
+        # print("TX")
 
         # add source route, if needed
         if goOn:
@@ -271,7 +271,7 @@ class Sixlowpan(object):
             )
 
         # self.mote.rpl.update_ptr()
-        print("FWD")
+        # print("FWD")
 
         # cut the forwarded packet into fragments
         if goOn:

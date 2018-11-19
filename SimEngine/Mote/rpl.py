@@ -126,9 +126,9 @@ class Rpl(object):
     
     def update_ptr(self):
         self.transmission_count += 1
-        print(Fore.GREEN)
-        print("Mote {} - Rate update to: {}".format(self.mote.id, self.transmission_count))
-        print(Style.RESET_ALL)
+        # print(Fore.GREEN)
+        # print("Mote {} - Rate update to: {}".format(self.mote.id, self.transmission_count))
+        # print(Style.RESET_ALL)
     # admin
 
     def start(self):
@@ -614,8 +614,8 @@ class RplOF0(object):
     def _update_preferred_parent(self):
         try:
             candidate = min(self.parents, key=self._calculate_rank)
-            print("Trying on cadidate parents",str(self.parents))
-            print("Selected: ", candidate)
+            # print("Trying on cadidate parents",str(self.parents))
+            # print("Selected: ", candidate)
         except ValueError:
             # self.parents is empty
             candidate = None
@@ -707,12 +707,12 @@ class RplTaOF(object):
     def update(self, dio):
         # got DIO update
         
-        print(Fore.RED+"UPDATE!")
-        print(Style.RESET_ALL)
+        # print(Fore.RED+"UPDATE!")
+        # print(Style.RESET_ALL)
         mac_addr = dio['mac']['srcMac']
         ptr = dio['app']['ptr']
 
-        print("Got new PTR {}".format(ptr))
+        # print("Got new PTR {}".format(ptr))
 
         neighbor = self._find_neighbor(mac_addr)
         if neighbor is None:
@@ -756,10 +756,10 @@ class RplTaOF(object):
 
         neighbor = self._find_neighbor(mac_addr)
 
-        print(Fore.BLUE+"Indicated TX from node {}, to MAC {} with ACK: {}".format(self.rpl.mote.id,mac_addr,isACKed))
-        print("and neighbor found" if neighbor is not None else "and neighbor  :(")
-        print(Fore.MAGENTA+"ETX: {}".format(self.get_etx(mac_addr)))
-        print(Style.RESET_ALL)
+        # print(Fore.BLUE+"Indicated TX from node {}, to MAC {} with ACK: {}".format(self.rpl.mote.id,mac_addr,isACKed))
+        # print("and neighbor found" if neighbor is not None else "and neighbor  :(")
+        # print(Fore.MAGENTA+"ETX: {}".format(self.get_etx(mac_addr)))
+        # print(Style.RESET_ALL)
 
         if neighbor is None:
             # neighbor haven't sent DIO yet.
@@ -794,15 +794,15 @@ class RplTaOF(object):
 
     def _update_preferred_parent(self):
         try:
-            print(Fore.YELLOW + "From mote {} neighbors ".format(self.rpl.mote.id))
-            pp.pprint(self.neighbors)
-            print(Fore.CYAN + "are suitable parents")
-            pp.pprint(self.parents)
+            # print(Fore.YELLOW + "From mote {} neighbors ".format(self.rpl.mote.id))
+            # pp.pprint(self.neighbors)
+            # print(Fore.CYAN + "are suitable parents")
+            # pp.pprint(self.parents)
             candidate = min(self.parents, key=lambda p:p["advertised_ptr"])
-            print(Fore.MAGENTA + "Selected as candidate {}".format(str(candidate)))
-            print(Style.RESET_ALL)
-            if(len(self.neighbors) > 3):
-                print("STOP")
+            # print(Fore.MAGENTA + "Selected as candidate {}".format(str(candidate)))
+            # print(Style.RESET_ALL)
+            # if(len(self.neighbors) > 3):
+            #     print("STOP")
         except ValueError:
             # self.parents is empty
             candidate = None
@@ -828,15 +828,15 @@ class RplTaOF(object):
                             old_preferred = old_preferred_parent['mac_addr'] if old_preferred_parent else None ,
                             new_preferred = new_preferred_parent['mac_addr']
                         )
-                        print("Changing parent")
-                    else:  
-                        print("Not changing parent due to threshold")
+                        # print("Changing parent")
+                    # else:  
+                        # print("Not changing parent due to threshold")
                 else:
                     self.preferred_parent = new_preferred_parent
                     self.rpl.indicate_preferred_parent_change(
                         old_preferred = old_preferred_parent['mac_addr'] if old_preferred_parent else None ,
                         new_preferred = new_preferred_parent['mac_addr']
                     )
-                    print("Chosing first parent")
-        else:
-                print("Wont change parent")
+                    # print("Chosing first parent")
+        # else:
+        #         print("Wont change parent")
