@@ -23,7 +23,7 @@
 
             "rpl_daoPeriod":                               60,
             "rpl_extensions":                              ["dis_unicast"],
-            "rpl_of":                                      "RplOF0",
+            "rpl_of":                                      "RplTaOF",
 
             "fragmentation":                               "FragmentForwarding",
             "sixlowpan_reassembly_buffers_num":            1,

@@ -17,6 +17,8 @@ import glob
 from SimEngine import SimLog
 import SimEngine.Mote.MoteDefines as d
 
+import numpy as np
+
 # =========================== defines =========================================
 
 DAGROOT_ID = 0  # we assume first mote is DAGRoot
@@ -128,6 +130,16 @@ def kpis_all(inputfile):
             )
             allstats[run_id][mote_id]['upstream_pkts'][appcounter]['rx_asn'] = rx_asn
 
+        elif logline['_type'] == SimLog.LOG_RPL_CHURN['type']:
+            # parent change
+            mote_id = logline['_mote_id']
+            churn_asn = logline['_asn']
+            ptr = logline['ptr']
+            if 'churns' not in allstats[run_id][mote_id]:
+                allstats[run_id][mote_id]['churns'] = 1
+            else:    
+                allstats[run_id][mote_id]['churns'] += 1
+
         elif logline['_type'] == SimLog.LOG_PACKET_DROPPED['type']:
             # packet dropped
 
@@ -215,20 +227,37 @@ def kpis_all(inputfile):
                 else:
                     motestats['WARNING'] = "mote didn't join"
 
+
     # === remove unnecessary stats
 
     for (run_id, per_mote_stats) in allstats.items():
+        allstats[run_id]['total'] = {}
+        acc_charge = []
+        acc_hops = []
+        acc_churns = []
         for (mote_id, motestats) in per_mote_stats.items():
             if 'sync_asn' in motestats:
                 del motestats['sync_asn']
             if 'charge_asn' in motestats:
                 del motestats['charge_asn']
-                del motestats['charge']
             if 'join_asn' in motestats:
                 del motestats['upstream_pkts']
                 del motestats['hops']
                 del motestats['latencies']
                 del motestats['join_asn']
+            if 'charge' in motestats:
+                acc_charge.append(motestats['charge'])
+            if 'avg_hops' in motestats:
+                acc_hops.append(motestats['avg_hops'])
+            if 'churns' in motestats:
+                acc_churns.append(motestats['churns'])
+
+        allstats[run_id]['total']['total_used_charge_uA'] = np.sum(acc_charge)
+        allstats[run_id]['total']['avg_used_charge_uA'] = np.mean(acc_charge)
+        allstats[run_id]['total']['avg_hops'] = np.mean(acc_hops)
+        allstats[run_id]['total']['avg_churns'] = np.mean(acc_churns)
+        allstats[run_id]['total']['total_churns'] = np.sum(acc_churns)
+        allstats[run_id]['total']['desv_churns'] = np.std(acc_churns)
 
     return allstats
 

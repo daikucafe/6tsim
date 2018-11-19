@@ -6,6 +6,7 @@ An application lives on each node
 
 from abc import abstractmethod
 import random
+import numpy as np
 
 # Mote sub-modules
 
@@ -230,6 +231,60 @@ class AppPeriodic(AppBase):
         )
         # schedule the next transmission
         self._schedule_transmission()
+
+class AppVariable(AppBase):
+
+    def __init__(self, mote, **kwargs):
+        super(AppVariable, self).__init__(mote)
+        self.sending_first_packet = True
+
+    #======================== public ==========================================
+
+    def startSendingData(self):
+        if self.sending_first_packet:
+            self._schedule_transmission()
+
+    #======================== public ==========================================
+
+    def _schedule_transmission(self):
+        assert self.settings.app_pkPeriod >= 0
+        if self.settings.app_pkPeriod == 0:
+            return
+
+        if self.sending_first_packet:
+            # compute initial time within the range of [next asn, next asn+pkPeriod]
+            delay = self.settings.tsch_slotDuration + (self.settings.app_pkPeriod * random.random())
+            self.sending_first_packet = False
+        else:
+            # compute random delay
+            assert self.settings.app_pkPeriodVar < 1
+            delay = self.settings.app_pkPeriod * (1 + random.uniform(-self.settings.app_pkPeriodVar, self.settings.app_pkPeriodVar))
+
+        # schedule
+        self.engine.scheduleIn(
+            delay           = delay,
+            cb              = self._send_burst_packets,
+            uniqueTag       = (
+                'AppVariable',
+                'scheduled_by_{0}'.format(self.mote.id)
+            ),
+            intraSlotOrder  = d.INTRASLOTORDER_ADMINTASKS,
+        )
+
+    def _send_burst_packets(self):
+        assert self.mote.rpl.dodagId!=None
+
+        num = self.settings.app_burstNumPackets
+        a = ((np.random.pareto(2,10) + 0) * int(num)/2)
+        pckts = np.interp(a, (a.min(), a.max()), (0, num)).astype(int)[0]
+        
+        for _ in range(0, pckts):
+            self._send_packet(
+                dstIp         = self.mote.rpl.dodagId,
+                packet_length = self.settings.app_pkLength
+            )
+        self._schedule_transmission()
+
 
 class AppBurst(AppBase):
     """Generate burst traffic to the root at the specified time (only once)

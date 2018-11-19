@@ -16,6 +16,8 @@ import math
 
 import netaddr
 
+import sys
+
 # Mote sub-modules
 
 # Simulator-wide modules
@@ -56,7 +58,7 @@ class Rpl(object):
 
         # local variables
         self.dodagId                   = None
-        self.of                        = RplTaOF(self)
+        self.of                        = getattr(sys.modules[__name__], self.settings.rpl_of)(self)
         self.trickle_timer             = TrickleTimer(
             i_min    = pow(2, self.DEFAULT_DIO_INTERVAL_MIN),
             i_max    = self.DEFAULT_DIO_INTERVAL_DOUBLINGS,
@@ -478,6 +480,207 @@ class RplOFNone(object):
         # do nothing
         pass
 
+class RplOF0(object):
+
+    # Constants defined in RFC 6550
+    INFINITE_RANK = 65535
+
+    # Constants defined in RFC 8180
+    UPPER_LIMIT_OF_ACCEPTABLE_ETX = 3
+    DEFAULT_STEP_OF_RANK = 3
+    MINIMUM_STEP_OF_RANK = 1
+    MAXIMUM_STEP_OF_RANK = 9
+    PARENT_SWITCH_THRESHOLD = 640
+
+    def __init__(self, rpl):
+        self.rpl = rpl
+        self.neighbors = []
+        self.rank = None
+        self.preferred_parent = None
+
+    @property
+    def parents(self):
+        return (
+            [n for n in self.neighbors if self._calculate_rank(n) is not None]
+        )
+
+    def update(self, dio):
+        mac_addr = dio['mac']['srcMac']
+        rank = dio['app']['rank']
+
+        # update neighbor's rank
+        neighbor = self._find_neighbor(mac_addr)
+        if neighbor is None:
+            neighbor = self._add_neighbor(mac_addr)
+        self._update_neighbor_rank(neighbor, rank)
+
+        # change preferred parent if necessary
+        self._update_preferred_parent()
+
+    def get_rank(self):
+        return self._calculate_rank(self.preferred_parent)
+
+    def get_preferred_parent(self):
+        if self.preferred_parent is None:
+            return None
+        else:
+            return self.preferred_parent['mac_addr']
+
+    def update_etx(self, cell, mac_addr, isACKed):
+        neighbor = self._find_neighbor(mac_addr)
+        if neighbor is None:
+            # we've not received DIOs from this neighbor; ignore the neighbor
+            return
+        elif (
+                (cell.mac_addr == mac_addr)
+                and
+                (d.CELLOPTION_TX in cell.options)
+                and
+                (d.CELLOPTION_SHARED not in cell.options)
+            ):
+            neighbor['numTx'] += 1
+            if isACKed is True:
+                neighbor['numTxAck'] += 1
+            self._update_neighbor_rank_increase(neighbor)
+            self._update_preferred_parent()
+
+    def _add_neighbor(self, mac_addr):
+        assert self._find_neighbor(mac_addr) is None
+
+        neighbor = {
+            'mac_addr': mac_addr,
+            'advertised_rank': None,
+            'rank_increase': None,
+            'numTx': 0,
+            'numTxAck': 0
+        }
+        self.neighbors.append(neighbor)
+        self._update_neighbor_rank_increase(neighbor)
+        return neighbor
+
+    def _find_neighbor(self, mac_addr):
+        for neighbor in self.neighbors:
+            if neighbor['mac_addr'] == mac_addr:
+                return neighbor
+        return None
+
+    def _update_neighbor_rank(self, neighbor, new_advertised_rank):
+        neighbor['advertised_rank'] = new_advertised_rank
+
+    def _update_neighbor_rank_increase(self, neighbor):
+        if neighbor['numTxAck'] == 0:
+            # ETX is not available
+            etx = None
+        else:
+            etx = float(neighbor['numTx']) / neighbor['numTxAck']
+
+        if etx is None:
+            step_of_rank = self.DEFAULT_STEP_OF_RANK
+        elif etx > self.UPPER_LIMIT_OF_ACCEPTABLE_ETX:
+            step_of_rank = None
+        else:
+            step_of_rank = (3 * etx) - 2
+
+        if step_of_rank is None:
+            # this neighbor will not be considered as a parent
+            neighbor['rank_increase'] = None
+        else:
+            assert self.MINIMUM_STEP_OF_RANK <= step_of_rank
+            # step_of_rank never exceeds 7 because the upper limit of acceptable
+            # ETX is 3, which is defined in Section 5.1.1 of RFC 8180
+            assert step_of_rank <= self.MAXIMUM_STEP_OF_RANK
+            neighbor['rank_increase'] = step_of_rank * d.RPL_MINHOPRANKINCREASE
+
+    def _calculate_rank(self, neighbor):
+        if (
+                (neighbor is None)
+                or
+                (neighbor['advertised_rank'] is None)
+                or
+                (neighbor['rank_increase'] is None)
+            ):
+            return None
+        elif neighbor['advertised_rank'] == self.INFINITE_RANK:
+            # this neighbor should be ignored
+            return None
+        else:
+            rank = neighbor['advertised_rank'] + neighbor['rank_increase']
+
+            if rank > self.INFINITE_RANK:
+                return self.INFINITE_RANK
+            else:
+                return rank
+
+    def _update_preferred_parent(self):
+        try:
+            candidate = min(self.parents, key=self._calculate_rank)
+            print("Trying on cadidate parents",str(self.parents))
+            print("Selected: ", candidate)
+        except ValueError:
+            # self.parents is empty
+            candidate = None
+
+        current_rank = self.get_rank()
+        new_rank = self._calculate_rank(candidate)
+
+        if (
+                (current_rank is None)
+                and
+                (new_rank is None)
+            ):
+            # we don't have any available parent
+            rank_difference = None
+        elif (
+                (current_rank is None)
+                and
+                (new_rank is not None)
+            ):
+            rank_difference = new_rank
+        else:
+            rank_difference = current_rank - new_rank
+            assert rank_difference >= 0
+
+        # Section 6.4, RFC 8180
+        #
+        #   Per [RFC6552] and [RFC6719], the specification RECOMMENDS the use
+        #   of a boundary value (PARENT_SWITCH_THRESHOLD) to avoid constant
+        #   changes of the parent when ranks are compared.  When evaluating a
+        #   parent that belongs to a smaller path cost than the current minimum
+        #   path, the candidate node is selected as the new parent only if the
+        #   difference between the new path and the current path is greater
+        #   than the defined PARENT_SWITCH_THRESHOLD.
+        if rank_difference is not None:
+            if self.PARENT_SWITCH_THRESHOLD < rank_difference:
+                new_parent = candidate
+            else:
+                new_parent = None
+        else:
+            new_parent = None
+
+        if (
+                (new_parent is not None)
+                and
+                (new_parent != self.preferred_parent)
+            ):
+            # change to the new preferred parent
+
+            if self.preferred_parent is None:
+                old_parent_mac_addr = None
+            else:
+                old_parent_mac_addr = self.preferred_parent['mac_addr']
+
+            self.preferred_parent = new_parent
+            if new_parent is None:
+                new_parent_mac_addr = None
+            else:
+                new_parent_mac_addr = self.preferred_parent['mac_addr']
+
+            self.rpl.indicate_preferred_parent_change(
+                old_preferred = old_parent_mac_addr,
+                new_preferred = new_parent_mac_addr
+            )
+            
+
 
 class RplTaOF(object):
 
@@ -486,7 +689,7 @@ class RplTaOF(object):
 
     # Other constants
     UPPER_LIMIT_OF_ACCEPTABLE_ETX = 3
-    PARENT_SWITCH_THRESHOLD = 640
+    PARENT_SWITCH_THRESHOLD = 160
 
     def __init__(self, rpl):
         self.rpl = rpl
@@ -618,11 +821,22 @@ class RplTaOF(object):
                 (new_preferred_parent != old_preferred_parent)
             ):
 
-                self.preferred_parent = new_preferred_parent
-                self.rpl.indicate_preferred_parent_change(
-                    old_preferred = old_preferred_parent['mac_addr'] if old_preferred_parent else None ,
-                    new_preferred = new_preferred_parent['mac_addr']
-                )
-                print("Changing parent")
+                if old_preferred_parent is not None:
+                    if abs(old_preferred_parent["advertised_ptr"] - new_preferred_parent["advertised_ptr"]) >= self.PARENT_SWITCH_THRESHOLD:
+                        self.preferred_parent = new_preferred_parent
+                        self.rpl.indicate_preferred_parent_change(
+                            old_preferred = old_preferred_parent['mac_addr'] if old_preferred_parent else None ,
+                            new_preferred = new_preferred_parent['mac_addr']
+                        )
+                        print("Changing parent")
+                    else:  
+                        print("Not changing parent due to threshold")
+                else:
+                    self.preferred_parent = new_preferred_parent
+                    self.rpl.indicate_preferred_parent_change(
+                        old_preferred = old_preferred_parent['mac_addr'] if old_preferred_parent else None ,
+                        new_preferred = new_preferred_parent['mac_addr']
+                    )
+                    print("Chosing first parent")
         else:
                 print("Wont change parent")
