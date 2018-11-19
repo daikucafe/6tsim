@@ -56,7 +56,7 @@ class Rpl(object):
 
         # local variables
         self.dodagId                   = None
-        self.of                        = RplOF0(self)
+        self.of                        = RplTaOF(self)
         self.trickle_timer             = TrickleTimer(
             i_min    = pow(2, self.DEFAULT_DIO_INTERVAL_MIN),
             i_max    = self.DEFAULT_DIO_INTERVAL_DOUBLINGS,
@@ -88,6 +88,8 @@ class Rpl(object):
 
     def addParentChildfromDAOs(self, parent_addr, child_addr):
         self.parentChildfromDAOs[child_addr] = parent_addr
+        if len(self.parentChildfromDAOs) > 1 and self.mote.id is not 0:
+            pass
 
     def getPreferredParent(self):
         # FIXME: when we implement IPv6 address or MAC address, we should
@@ -477,49 +479,50 @@ class RplOFNone(object):
         pass
 
 
-class RplOF0(object):
+class RplTaOF(object):
 
     # Constants defined in RFC 6550
     INFINITE_RANK = 65535
 
-    # Constants defined in RFC 8180
+    # Other constants
     UPPER_LIMIT_OF_ACCEPTABLE_ETX = 3
-    DEFAULT_STEP_OF_RANK = 3
-    MINIMUM_STEP_OF_RANK = 1
-    MAXIMUM_STEP_OF_RANK = 9
     PARENT_SWITCH_THRESHOLD = 640
 
     def __init__(self, rpl):
         self.rpl = rpl
         self.neighbors = []
-        self.rank = None
+        self.rank = self.INFINITE_RANK
         self.preferred_parent = None
         self.etx_table = {}
 
     @property
     def parents(self):
         return (
-            [n for n in self.neighbors if self._calculate_rank(n) is not None]
+            [n for n in self.neighbors if self.get_etx(n['mac_addr']) <= self.UPPER_LIMIT_OF_ACCEPTABLE_ETX]
         )
 
     def update(self, dio):
+        # got DIO update
+        
+        print(Fore.RED+"UPDATE!")
+        print(Style.RESET_ALL)
         mac_addr = dio['mac']['srcMac']
-        rank = dio['app']['rank']
-
         ptr = dio['app']['ptr']
-        print("Got new rank {} and PTR {}".format(rank,ptr))
 
-        # update neighbor's rank
+        print("Got new PTR {}".format(ptr))
+
         neighbor = self._find_neighbor(mac_addr)
         if neighbor is None:
             neighbor = self._add_neighbor(mac_addr)
-        self._update_neighbor_rank(neighbor, rank, ptr)
+        
+        self._update_neighbor_etx(neighbor, self.get_etx(mac_addr))
+        self._update_neighbor_ptr(neighbor, ptr)
 
         # change preferred parent if necessary
         self._update_preferred_parent()
 
     def get_rank(self):
-        return self._calculate_rank(self.preferred_parent)
+        return self.INFINITE_RANK
 
     def get_preferred_parent(self):
         if self.preferred_parent is None:
@@ -529,9 +532,9 @@ class RplOF0(object):
 
     def get_etx(self, mac_addr):
         if mac_addr not in self.etx_table:
-            return None
+            return 1
         if self.etx_table[mac_addr]['numTx'] == 0:
-            return 0
+            return 1
         if self.etx_table[mac_addr]['numTxAck'] == 0:
             return 3
         return float(self.etx_table[mac_addr]['numTx'])/self.etx_table[mac_addr]['numTxAck']
@@ -549,15 +552,17 @@ class RplOF0(object):
             pdr_data['numTxAck'] += 1
 
         neighbor = self._find_neighbor(mac_addr)
+
         print(Fore.BLUE+"Indicated TX from node {}, to MAC {} with ACK: {}".format(self.rpl.mote.id,mac_addr,isACKed))
-        print("and neighbor found" if neighbor is not None else "and neighbor not found :(")
+        print("and neighbor found" if neighbor is not None else "and neighbor  :(")
         print(Fore.MAGENTA+"ETX: {}".format(self.get_etx(mac_addr)))
         print(Style.RESET_ALL)
 
         if neighbor is None:
+            # neighbor haven't sent DIO yet.
             return
 
-        self._update_neighbor_rank_increase(neighbor)
+        self._update_neighbor_etx(neighbor, self.get_etx(mac_addr))
         self._update_preferred_parent()
         
 
@@ -566,13 +571,10 @@ class RplOF0(object):
 
         neighbor = {
             'mac_addr': mac_addr,
-            'advertised_rank': None,
-            'rank_increase': None,
-            'numTx': 0,
-            'numTxAck': 0
+            'advertised_ptr': None,
+            'etx': None
         }
         self.neighbors.append(neighbor)
-        self._update_neighbor_rank_increase(neighbor)
         return neighbor
 
     def _find_neighbor(self, mac_addr):
@@ -581,71 +583,23 @@ class RplOF0(object):
                 return neighbor
         return None
 
-    def _update_neighbor_rank(self, neighbor, new_advertised_rank, new_advertised_ptr):
-        neighbor['advertised_rank'] = new_advertised_rank
+    def _update_neighbor_etx(self, neighbor, new_etx):
+        neighbor['etx'] = new_etx
+
+    def _update_neighbor_ptr(self, neighbor, new_advertised_ptr):
         neighbor['advertised_ptr'] = new_advertised_ptr
-
-    def _update_neighbor_rank_increase(self, neighbor):
-        if neighbor['numTxAck'] == 0:
-            # ETX is not available
-            etx = None
-        else:
-            etx = float(neighbor['numTx']) / neighbor['numTxAck']
-
-        # print(Fore.MAGENTA + "Node {} - Got an ETX value of {}".format(self.rpl.mote.id,etx))
-
-        if etx is None:
-            step_of_rank = self.DEFAULT_STEP_OF_RANK
-        elif etx > self.UPPER_LIMIT_OF_ACCEPTABLE_ETX:
-            step_of_rank = None
-        else:
-            step_of_rank = (3 * etx) - 2
-
-        if step_of_rank is None:
-            # this neighbor will not be considered as a parent
-            neighbor['rank_increase'] = None
-        else:
-            assert self.MINIMUM_STEP_OF_RANK <= step_of_rank
-            # step_of_rank never exceeds 7 because the upper limit of acceptable
-            # ETX is 3, which is defined in Section 5.1.1 of RFC 8180
-            assert step_of_rank <= self.MAXIMUM_STEP_OF_RANK
-            neighbor['rank_increase'] = step_of_rank * d.RPL_MINHOPRANKINCREASE
-
-    def _calculate_rank(self, neighbor):
-        if (
-                (neighbor is None)
-                or
-                (neighbor['advertised_rank'] is None)
-                or
-                (neighbor['rank_increase'] is None)
-                or
-                (neighbor['advertised_ptr'] is None)
-            ):
-            return None
-        elif neighbor['advertised_rank'] == self.INFINITE_RANK:
-            # this neighbor should be ignored
-            return None
-        else:
-            rank = neighbor['advertised_rank'] + neighbor['rank_increase']
-
-            if rank > self.INFINITE_RANK:
-                return self.INFINITE_RANK
-            else:
-                return rank
 
     def _update_preferred_parent(self):
         try:
-            # candidate = min(self.parents, key=self._calculate_rank)
-            # print("Trying on cadidate parents {}".format(str(self.parents)))
             print(Fore.YELLOW + "From mote {} neighbors ".format(self.rpl.mote.id))
             pp.pprint(self.neighbors)
             print(Fore.CYAN + "are suitable parents")
             pp.pprint(self.parents)
             candidate = min(self.parents, key=lambda p:p["advertised_ptr"])
-            print(Fore.RED + "Selected as candidate {}".format(str(candidate)))
+            print(Fore.MAGENTA + "Selected as candidate {}".format(str(candidate)))
             print(Style.RESET_ALL)
-            if(len(self.neighbors)>1):
-                print("PARAR AQUI")
+            if(len(self.neighbors) > 3):
+                print("STOP")
         except ValueError:
             # self.parents is empty
             candidate = None
