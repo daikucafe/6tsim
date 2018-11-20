@@ -6,7 +6,7 @@
     },
     "settings": {
         "combination": {
-            "exec_numMotes":                               [100]
+            "exec_numMotes":                               [200]
         },
         "regular": {
             "exec_numSlotframesPerRun":                    3000,
@@ -14,7 +14,7 @@
 
             "secjoin_enabled":                             true,
 
-            "app":                                         "AppPeriodic",
+            "app":                                         "AppVariable",
             "app_pkPeriod":                                10,
             "app_pkPeriodVar":                             0.05,
             "app_pkLength":                                90,
@@ -23,7 +23,7 @@
 
             "rpl_daoPeriod":                               60,
             "rpl_extensions":                              ["dis_unicast"],
-            "rpl_of":                                      "RplTaOF",
+            "rpl_of":                                      "RplOF0",
 
             "fragmentation":                               "FragmentForwarding",
             "sixlowpan_reassembly_buffers_num":            1,
