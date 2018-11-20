@@ -1,20 +1,20 @@
 {
     "version":                                             0,
     "execution": {
-        "numCPUs":                                         -1,
-        "numRuns":                                         5
+        "numCPUs":                                         1,
+        "numRuns":                                         1
     },
     "settings": {
         "combination": {
-            "exec_numMotes":                               [10]
+            "exec_numMotes":                               [200]
         },
         "regular": {
-            "exec_numSlotframesPerRun":                    200,
+            "exec_numSlotframesPerRun":                    3000,
             "exec_randomSeed":                             "random",
 
             "secjoin_enabled":                             true,
 
-            "app":                                         "AppVariable",
+            "app":                                         "AppPeriodic",
             "app_pkPeriod":                                10,
             "app_pkPeriodVar":                             0.05,
             "app_pkLength":                                90,
@@ -23,7 +23,7 @@
 
             "rpl_daoPeriod":                               60,
             "rpl_extensions":                              ["dis_unicast"],
-            "rpl_of":                                      "RplOF0",
+            "rpl_of":                                      "RplTaOF",
 
             "fragmentation":                               "FragmentForwarding",
             "sixlowpan_reassembly_buffers_num":            1,
