@@ -5,7 +5,7 @@
         "numRuns":                                         4
     },
     "settings": {
-        "combination": {
+        "combination": {    
             "exec_numMotes":                               [200]
         },
         "regular": {
