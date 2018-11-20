@@ -1,0 +1,3253 @@
+{
+    "0": {
+        "0": {
+            "packet_drops": {
+                "max_retries": 5
+            }
+        }, 
+        "1": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "2": {
+            "packet_drops": {
+                "max_retries": 15
+            }, 
+            "sync_time_s": 1072.6200000000001, 
+            "avg_current_uA": 7.5454944875292265, 
+            "charge": 14769.399999999958, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 33.2836440244557
+        }, 
+        "3": {
+            "upstream_reliability": 0.0851063829787234, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 24, 
+            "avg_current_uA": 16.832753732297363, 
+            "latency_avg_s": 210.89374999999998, 
+            "upstream_num_tx": 282, 
+            "sync_time_s": 134.33, 
+            "churns": 1, 
+            "join_time_s": 177.76, 
+            "charge": 48742.100000001505, 
+            "latency_max_s": 352.75, 
+            "packet_drops": {
+                "max_retries": 72, 
+                "txqueue_full": 211
+            }, 
+            "latency_min_s": 59.82, 
+            "lifetime_AA_years": 14.919813864415119, 
+            "upstream_num_lost": 258
+        }, 
+        "4": {
+            "upstream_reliability": 0.13636363636363635, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 18, 
+            "avg_current_uA": 19.126121201077325, 
+            "latency_avg_s": 170.525, 
+            "upstream_num_tx": 132, 
+            "sync_time_s": 1548.33, 
+            "churns": 1, 
+            "join_time_s": 1560.45, 
+            "charge": 28338.600000000242, 
+            "latency_max_s": 277.28000000000003, 
+            "packet_drops": {
+                "max_retries": 36, 
+                "txqueue_full": 90
+            }, 
+            "latency_min_s": 36.34, 
+            "lifetime_AA_years": 13.130814652438225, 
+            "upstream_num_lost": 114
+        }, 
+        "5": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "6": {
+            "packet_drops": {
+                "max_retries": 7
+            }, 
+            "sync_time_s": 2225.03, 
+            "avg_current_uA": 7.061505397716668, 
+            "charge": 5684.2999999999865, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 35.56487439528432
+        }, 
+        "7": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "8": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "9": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "10": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "11": {
+            "upstream_reliability": 0.4782608695652174, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 143, 
+            "avg_current_uA": 21.69707606212166, 
+            "latency_avg_s": 82.26237762237764, 
+            "upstream_num_tx": 299, 
+            "sync_time_s": 10.1, 
+            "churns": 1, 
+            "join_time_s": 38.38, 
+            "charge": 65523.00000000121, 
+            "latency_max_s": 224.68, 
+            "packet_drops": {
+                "max_retries": 53, 
+                "txqueue_full": 131
+            }, 
+            "latency_min_s": 0.33, 
+            "lifetime_AA_years": 11.574903078754176, 
+            "upstream_num_lost": 156
+        }, 
+        "12": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "13": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "14": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "15": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "16": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "17": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "18": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "19": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "20": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "21": {
+            "sync_time_s": 601.96, 
+            "avg_current_uA": 2.8228941862572214, 
+            "charge": 6854.099999999984, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 88.96598169851896
+        }, 
+        "22": {
+            "upstream_reliability": 0.19313304721030042, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 45, 
+            "avg_current_uA": 21.1498475127929, 
+            "latency_avg_s": 145.73422222222223, 
+            "upstream_num_tx": 233, 
+            "sync_time_s": 688.82, 
+            "churns": 1, 
+            "join_time_s": 697.91, 
+            "charge": 49515.60000000048, 
+            "latency_max_s": 253.68, 
+            "packet_drops": {
+                "max_retries": 55, 
+                "txqueue_full": 153
+            }, 
+            "latency_min_s": 0.96, 
+            "lifetime_AA_years": 11.874390695228778, 
+            "upstream_num_lost": 188
+        }, 
+        "23": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "24": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "25": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "26": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "27": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "28": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "29": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "30": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "31": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "32": {
+            "upstream_reliability": 0.3687707641196013, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 111, 
+            "avg_current_uA": 22.150444733540798, 
+            "latency_avg_s": 99.13234234234231, 
+            "upstream_num_tx": 301, 
+            "sync_time_s": 9.09, 
+            "churns": 1, 
+            "join_time_s": 15.15, 
+            "charge": 66914.50000000073, 
+            "latency_max_s": 281.38, 
+            "packet_drops": {
+                "max_retries": 53, 
+                "txqueue_full": 168
+            }, 
+            "latency_min_s": 0.6, 
+            "lifetime_AA_years": 11.337991427825836, 
+            "upstream_num_lost": 190
+        }, 
+        "33": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "34": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "35": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "36": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "37": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "38": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "39": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "40": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "41": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "42": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "43": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "44": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "45": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "46": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "47": {
+            "upstream_reliability": 0.1111111111111111, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 13, 
+            "avg_current_uA": 18.086671412239447, 
+            "latency_avg_s": 192.73307692307694, 
+            "upstream_num_tx": 117, 
+            "sync_time_s": 1639.23, 
+            "churns": 1, 
+            "join_time_s": 1680.64, 
+            "charge": 25154.400000000256, 
+            "latency_max_s": 292.65000000000003, 
+            "packet_drops": {
+                "max_retries": 32, 
+                "txqueue_full": 87
+            }, 
+            "latency_min_s": 40.63, 
+            "lifetime_AA_years": 13.885448946756744, 
+            "upstream_num_lost": 104
+        }, 
+        "48": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "49": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "50": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "51": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "52": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "53": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "54": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "55": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "56": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "57": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "58": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "59": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "60": {
+            "upstream_reliability": 0.2112676056338028, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 57, 
+                "txqueue_full": 138
+            }, 
+            "upstream_num_rx": 45, 
+            "latency_avg_s": 132.0684444444445, 
+            "upstream_num_tx": 213, 
+            "sync_time_s": 688.82, 
+            "churns": 1, 
+            "join_time_s": 765.58, 
+            "charge": 47650.300000000825, 
+            "latency_max_s": 252.58, 
+            "avg_current_uA": 20.353112532996537, 
+            "latency_min_s": 2.29, 
+            "lifetime_AA_years": 12.339220947374216, 
+            "upstream_num_lost": 168
+        }, 
+        "61": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "62": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "63": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "64": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "65": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "66": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "67": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "68": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "69": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "70": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "71": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "72": {
+            "upstream_reliability": 0.19858156028368795, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 67, 
+                "txqueue_full": 201
+            }, 
+            "upstream_num_rx": 56, 
+            "latency_avg_s": 160.95321428571424, 
+            "upstream_num_tx": 282, 
+            "sync_time_s": 51.51, 
+            "churns": 1, 
+            "join_time_s": 200.99, 
+            "charge": 60298.000000000735, 
+            "latency_max_s": 268.63, 
+            "avg_current_uA": 20.244486300105333, 
+            "latency_min_s": 50.02, 
+            "lifetime_AA_years": 12.405429744597116, 
+            "upstream_num_lost": 226
+        }, 
+        "73": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "74": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "75": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "76": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "77": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "78": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "79": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "80": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "81": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "82": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "83": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "84": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "85": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "86": {
+            "upstream_reliability": 0.043478260869565216, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 1, 
+            "avg_current_uA": 16.627412741274057, 
+            "latency_avg_s": 21.46, 
+            "upstream_num_tx": 23, 
+            "sync_time_s": 2630.04, 
+            "churns": 1, 
+            "join_time_s": 2634.08, 
+            "charge": 6650.299999999972, 
+            "latency_max_s": 21.46, 
+            "packet_drops": {
+                "max_retries": 10, 
+                "txqueue_full": 13
+            }, 
+            "latency_min_s": 21.46, 
+            "lifetime_AA_years": 15.104066785327909, 
+            "upstream_num_lost": 22
+        }, 
+        "87": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "88": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "89": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "90": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "91": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "92": {
+            "upstream_reliability": 0.3745819397993311, 
+            "avg_hops": 1.0803571428571428, 
+            "packet_drops": {
+                "max_retries": 64, 
+                "txqueue_full": 161
+            }, 
+            "upstream_num_rx": 112, 
+            "avg_current_uA": 22.436892337882647, 
+            "latency_avg_s": 92.20080357142861, 
+            "upstream_num_tx": 299, 
+            "sync_time_s": 3.0300000000000002, 
+            "churns": 2, 
+            "join_time_s": 7.07, 
+            "charge": 67915.80000000064, 
+            "latency_max_s": 247.05, 
+            "lifetime_AA_years": 11.193241413713338, 
+            "latency_min_s": 0.07, 
+            "upstream_num_lost": 187
+        }, 
+        "93": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "94": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "95": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "96": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "97": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "98": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "99": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "total": {
+            "avg_hops": 1.0080357142857141, 
+            "avg_churns": 1.1, 
+            "total_used_charge_uA": 494010.40000000654, 
+            "desv_churns": 0.3, 
+            "avg_used_charge_uA": 4990.0040404041065, 
+            "total_churns": 11
+        }
+    }, 
+    "1": {
+        "0": {
+            "packet_drops": {
+                "max_retries": 4
+            }
+        }, 
+        "1": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "2": {
+            "upstream_reliability": 0.4152823920265781, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 125, 
+            "avg_current_uA": 22.84889795512234, 
+            "latency_avg_s": 75.17808, 
+            "upstream_num_tx": 301, 
+            "sync_time_s": 15.15, 
+            "churns": 1, 
+            "join_time_s": 18.18, 
+            "charge": 68886.00000000058, 
+            "latency_max_s": 259.83, 
+            "packet_drops": {
+                "max_retries": 54, 
+                "txqueue_full": 298
+            }, 
+            "latency_min_s": 0.71, 
+            "lifetime_AA_years": 10.991407682098462, 
+            "upstream_num_lost": 176
+        }, 
+        "3": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 1773.56, 
+            "avg_current_uA": 5.362452643978207, 
+            "charge": 6737.5999999999785, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 46.83333712856862
+        }, 
+        "4": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "5": {
+            "upstream_reliability": 0.2857142857142857, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 32, 
+            "avg_current_uA": 19.33917146227275, 
+            "latency_avg_s": 135.70406250000002, 
+            "upstream_num_tx": 112, 
+            "sync_time_s": 1631.15, 
+            "churns": 1, 
+            "join_time_s": 1685.69, 
+            "charge": 27052.60000000024, 
+            "latency_max_s": 206.71, 
+            "packet_drops": {
+                "max_retries": 30, 
+                "txqueue_full": 75
+            }, 
+            "latency_min_s": 28.77, 
+            "lifetime_AA_years": 12.986158843534099, 
+            "upstream_num_lost": 80
+        }, 
+        "6": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "7": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "8": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "9": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "10": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "11": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 2191.7000000000003, 
+            "avg_current_uA": 7.418346653942456, 
+            "charge": 6218.799999999962, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 33.854113891799216
+        }, 
+        "12": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "13": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "14": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "15": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "16": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "17": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 887.79, 
+            "avg_current_uA": 2.582286517194847, 
+            "charge": 5531.799999999973, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 97.25549463203336
+        }, 
+        "18": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "19": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "20": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "21": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "22": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "23": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "24": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "25": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "26": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "27": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "28": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "29": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "30": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "31": {
+            "packet_drops": {
+                "max_retries": 7
+            }, 
+            "sync_time_s": 9.09, 
+            "avg_current_uA": 1.888934129120029, 
+            "charge": 5706.2999999999865, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 132.95410816067542
+        }, 
+        "32": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "33": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "34": {
+            "upstream_reliability": 0.14634146341463414, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 42, 
+            "avg_current_uA": 17.772657907716933, 
+            "latency_avg_s": 174.6314285714286, 
+            "upstream_num_tx": 287, 
+            "sync_time_s": 9.09, 
+            "churns": 2, 
+            "join_time_s": 84.84, 
+            "charge": 53689.600000001155, 
+            "latency_max_s": 315.43, 
+            "packet_drops": {
+                "max_retries": 65, 
+                "txqueue_full": 208
+            }, 
+            "latency_min_s": 46.050000000000004, 
+            "lifetime_AA_years": 14.130781890668656, 
+            "upstream_num_lost": 245
+        }, 
+        "35": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "36": {
+            "upstream_reliability": 0.19923371647509577, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 52, 
+            "avg_current_uA": 21.124221779128394, 
+            "latency_avg_s": 153.60596153846151, 
+            "upstream_num_tx": 261, 
+            "sync_time_s": 407.03000000000003, 
+            "churns": 1, 
+            "join_time_s": 413.09000000000003, 
+            "charge": 55408.20000000041, 
+            "latency_max_s": 295.41, 
+            "packet_drops": {
+                "max_retries": 58, 
+                "txqueue_full": 173
+            }, 
+            "latency_min_s": 9.88, 
+            "lifetime_AA_years": 11.888795484979891, 
+            "upstream_num_lost": 209
+        }, 
+        "37": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "38": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "39": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "40": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "41": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "42": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "43": {
+            "upstream_reliability": 0.13970588235294118, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 38, 
+            "avg_current_uA": 17.106633034510814, 
+            "latency_avg_s": 168.72842105263157, 
+            "upstream_num_tx": 272, 
+            "sync_time_s": 167.66, 
+            "churns": 1, 
+            "join_time_s": 171.70000000000002, 
+            "charge": 48965.00000000169, 
+            "latency_max_s": 297.46, 
+            "packet_drops": {
+                "max_retries": 73, 
+                "txqueue_full": 191
+            }, 
+            "latency_min_s": 48.53, 
+            "lifetime_AA_years": 14.680945806504653, 
+            "upstream_num_lost": 234
+        }, 
+        "44": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "45": {
+            "upstream_reliability": 0.04245283018867924, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 62, 
+                "txqueue_full": 154
+            }, 
+            "upstream_num_rx": 9, 
+            "latency_avg_s": 199.61444444444447, 
+            "upstream_num_tx": 212, 
+            "sync_time_s": 770.63, 
+            "churns": 1, 
+            "join_time_s": 892.84, 
+            "charge": 34889.100000001265, 
+            "latency_max_s": 275.18, 
+            "avg_current_uA": 15.441959484281577, 
+            "latency_min_s": 47.33, 
+            "lifetime_AA_years": 16.263580588140602, 
+            "upstream_num_lost": 203
+        }, 
+        "46": {
+            "upstream_reliability": 0.16271186440677965, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 48, 
+            "avg_current_uA": 19.241056768993854, 
+            "latency_avg_s": 156.76312499999997, 
+            "upstream_num_tx": 295, 
+            "sync_time_s": 15.15, 
+            "churns": 1, 
+            "join_time_s": 30.3, 
+            "charge": 58008.900000001115, 
+            "latency_max_s": 263.55, 
+            "packet_drops": {
+                "max_retries": 71, 
+                "txqueue_full": 193
+            }, 
+            "latency_min_s": 33.44, 
+            "lifetime_AA_years": 13.052378334859418, 
+            "upstream_num_lost": 247
+        }, 
+        "47": {
+            "packet_drops": {
+                "max_retries": 3
+            }, 
+            "sync_time_s": 1530.15, 
+            "avg_current_uA": 3.797646431309786, 
+            "charge": 5695.899999999983, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 66.13084104957035
+        }, 
+        "48": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "49": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "50": {
+            "upstream_reliability": 0.1414141414141414, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 54, 
+                "txqueue_full": 143
+            }, 
+            "upstream_num_rx": 28, 
+            "latency_avg_s": 172.25785714285712, 
+            "upstream_num_tx": 198, 
+            "sync_time_s": 887.79, 
+            "churns": 1, 
+            "join_time_s": 1007.98, 
+            "charge": 39694.300000000905, 
+            "latency_max_s": 268.26, 
+            "avg_current_uA": 18.529602606654297, 
+            "latency_min_s": 47.94, 
+            "lifetime_AA_years": 13.553531494584039, 
+            "upstream_num_lost": 170
+        }, 
+        "51": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "52": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "53": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "54": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "55": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "56": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "57": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "58": {
+            "upstream_reliability": 0.07627118644067797, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 36, 
+                "txqueue_full": 83
+            }, 
+            "upstream_num_rx": 9, 
+            "latency_avg_s": 250.2466666666667, 
+            "upstream_num_tx": 118, 
+            "sync_time_s": 1631.15, 
+            "churns": 1, 
+            "join_time_s": 1766.49, 
+            "charge": 28906.4000000002, 
+            "latency_max_s": 342.02, 
+            "avg_current_uA": 20.664402902384243, 
+            "latency_min_s": 181.35, 
+            "lifetime_AA_years": 12.153341845770873, 
+            "upstream_num_lost": 109
+        }, 
+        "59": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "60": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "61": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "62": {
+            "WARNING": "mote didn't send or receive pkts", 
+            "packet_drops": {
+                "max_retries": 12
+            }, 
+            "upstream_num_rx": 0, 
+            "upstream_num_tx": 0, 
+            "sync_time_s": 2469.4500000000003, 
+            "join_time_s": 2552.27, 
+            "charge": 9697.899999999954, 
+            "avg_current_uA": 17.300686825439218, 
+            "lifetime_AA_years": 14.51627643719513, 
+            "upstream_num_lost": 0
+        }, 
+        "63": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "64": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "65": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "66": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "67": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "68": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "69": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "70": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "71": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "72": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "73": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "74": {
+            "packet_drops": {
+                "max_retries": 7
+            }, 
+            "sync_time_s": 34.34, 
+            "avg_current_uA": 2.0197218642970123, 
+            "charge": 6050.399999999987, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 124.34462237147108
+        }, 
+        "75": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "76": {
+            "packet_drops": {
+                "max_retries": 3
+            }, 
+            "sync_time_s": 1530.15, 
+            "avg_current_uA": 2.9727639430609725, 
+            "charge": 4458.7, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 84.48082569678306
+        }, 
+        "77": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "78": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "79": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "80": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "81": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "82": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "83": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "84": {
+            "upstream_reliability": 0.0859375, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 22, 
+            "avg_current_uA": 21.82589500780184, 
+            "latency_avg_s": 186.7359090909091, 
+            "upstream_num_tx": 256, 
+            "sync_time_s": 248.46, 
+            "churns": 1, 
+            "join_time_s": 332.29, 
+            "charge": 60709.600000001126, 
+            "latency_max_s": 442.25, 
+            "packet_drops": {
+                "max_retries": 32, 
+                "txqueue_full": 87
+            }, 
+            "latency_min_s": 70.37, 
+            "lifetime_AA_years": 11.506586667884317, 
+            "upstream_num_lost": 234
+        }, 
+        "85": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "86": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "87": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "88": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "89": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "90": {
+            "upstream_reliability": 0.034482758620689655, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 27, 
+                "txqueue_full": 18
+            }, 
+            "upstream_num_rx": 1, 
+            "latency_avg_s": 102.99000000000001, 
+            "upstream_num_tx": 29, 
+            "sync_time_s": 1773.56, 
+            "churns": 1, 
+            "join_time_s": 1887.69, 
+            "charge": 20613.499999999967, 
+            "latency_max_s": 102.99000000000001, 
+            "avg_current_uA": 16.40627487186015, 
+            "latency_min_s": 102.99000000000001, 
+            "lifetime_AA_years": 15.307652375261041, 
+            "upstream_num_lost": 28
+        }, 
+        "91": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "92": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "93": {
+            "upstream_reliability": 0.11371237458193979, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 34, 
+            "avg_current_uA": 17.55997009006417, 
+            "latency_avg_s": 178.26235294117646, 
+            "upstream_num_tx": 299, 
+            "sync_time_s": 34.34, 
+            "churns": 1, 
+            "join_time_s": 40.4, 
+            "charge": 52603.70000000163, 
+            "latency_max_s": 298.62, 
+            "packet_drops": {
+                "max_retries": 70, 
+                "txqueue_full": 221
+            }, 
+            "latency_min_s": 59.07, 
+            "lifetime_AA_years": 14.30193509575037, 
+            "upstream_num_lost": 265
+        }, 
+        "94": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "95": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "96": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "97": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "98": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "99": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "total": {
+            "avg_hops": 1.0833333333333333, 
+            "avg_churns": 1.0833333333333333, 
+            "total_used_charge_uA": 599524.3000000102, 
+            "desv_churns": 0.2763853991962833, 
+            "avg_used_charge_uA": 6055.801010101113, 
+            "total_churns": 13
+        }
+    }, 
+    "2": {
+        "0": {
+            "packet_drops": {
+                "max_retries": 7, 
+                "no_route": 1, 
+                "txqueue_full": 2
+            }
+        }, 
+        "1": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "2": {
+            "upstream_reliability": 0.06666666666666667, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 17, 
+            "avg_current_uA": 19.49691335581196, 
+            "latency_avg_s": 182.92411764705884, 
+            "upstream_num_tx": 255, 
+            "sync_time_s": 417.13, 
+            "churns": 1, 
+            "join_time_s": 425.21000000000004, 
+            "charge": 50942.900000000394, 
+            "latency_max_s": 295.29, 
+            "packet_drops": {
+                "max_retries": 62, 
+                "txqueue_full": 441
+            }, 
+            "latency_min_s": 84.65, 
+            "lifetime_AA_years": 12.881092916000016, 
+            "upstream_num_lost": 238
+        }, 
+        "3": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 1907.89, 
+            "avg_current_uA": 5.734642771207804, 
+            "charge": 6434.89999999999, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 43.79375708846835
+        }, 
+        "4": {
+            "upstream_reliability": 0.01818181818181818, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 4, 
+            "avg_current_uA": 24.91920241328826, 
+            "latency_avg_s": 252.48000000000002, 
+            "upstream_num_tx": 220, 
+            "sync_time_s": 633.27, 
+            "churns": 2, 
+            "join_time_s": 638.32, 
+            "charge": 59724.60000000037, 
+            "latency_max_s": 302.25, 
+            "packet_drops": {
+                "max_retries": 9
+            }, 
+            "latency_min_s": 157.87, 
+            "lifetime_AA_years": 10.078233979812024, 
+            "upstream_num_lost": 216
+        }, 
+        "5": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "6": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "7": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "8": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "9": {
+            "upstream_reliability": 0.07207207207207207, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 16, 
+            "avg_current_uA": 24.57609719679351, 
+            "latency_avg_s": 152.02937500000002, 
+            "upstream_num_tx": 222, 
+            "sync_time_s": 779.72, 
+            "churns": 1, 
+            "join_time_s": 788.8100000000001, 
+            "charge": 55303.1000000005, 
+            "latency_max_s": 271.12, 
+            "packet_drops": {
+                "max_retries": 27, 
+                "txqueue_full": 54
+            }, 
+            "latency_min_s": 78.75, 
+            "lifetime_AA_years": 10.21893551691285, 
+            "upstream_num_lost": 206
+        }, 
+        "10": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "11": {
+            "packet_drops": {
+                "max_retries": 3
+            }, 
+            "sync_time_s": 2298.76, 
+            "avg_current_uA": 10.660795361304066, 
+            "charge": 7795.599999999986, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 23.557487410648037
+        }, 
+        "12": {
+            "upstream_reliability": 0.13529411764705881, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 52, 
+                "txqueue_full": 121
+            }, 
+            "upstream_num_rx": 23, 
+            "latency_avg_s": 196.09826086956522, 
+            "upstream_num_tx": 170, 
+            "sync_time_s": 925.16, 
+            "churns": 1, 
+            "join_time_s": 1142.31, 
+            "charge": 42773.80000000044, 
+            "latency_max_s": 307.02, 
+            "avg_current_uA": 20.32163964956977, 
+            "latency_min_s": 102.02, 
+            "lifetime_AA_years": 12.358331160386088, 
+            "upstream_num_lost": 147
+        }, 
+        "13": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "14": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "15": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 29.29, 
+            "avg_current_uA": 2.1293627174901886, 
+            "charge": 6389.599999999984, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 117.94211970022091
+        }, 
+        "16": {
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "sync_time_s": 2519.9500000000003, 
+            "avg_current_uA": 13.004803450642088, 
+            "charge": 6633.099999999997, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 19.31144545664132
+        }, 
+        "17": {
+            "upstream_reliability": 0.11612903225806452, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 18, 
+            "avg_current_uA": 19.677004188446432, 
+            "latency_avg_s": 199.29666666666665, 
+            "upstream_num_tx": 155, 
+            "sync_time_s": 1258.46, 
+            "churns": 1, 
+            "join_time_s": 1281.69, 
+            "charge": 34858.60000000039, 
+            "latency_max_s": 317.75, 
+            "packet_drops": {
+                "max_retries": 41, 
+                "txqueue_full": 122
+            }, 
+            "latency_min_s": 99.84, 
+            "lifetime_AA_years": 12.763200643057038, 
+            "upstream_num_lost": 137
+        }, 
+        "18": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "19": {
+            "upstream_reliability": 0.348, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 46, 
+                "txqueue_full": 404
+            }, 
+            "upstream_num_rx": 87, 
+            "latency_avg_s": 92.02149425287357, 
+            "upstream_num_tx": 250, 
+            "sync_time_s": 417.13, 
+            "churns": 1, 
+            "join_time_s": 490.86, 
+            "charge": 56247.20000000085, 
+            "latency_max_s": 246.66, 
+            "avg_current_uA": 21.526979910979442, 
+            "latency_min_s": 0.08, 
+            "lifetime_AA_years": 11.666362562234074, 
+            "upstream_num_lost": 163
+        }, 
+        "20": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "21": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "22": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "23": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "24": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "25": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 1907.89, 
+            "avg_current_uA": 4.9838251151847786, 
+            "charge": 5592.399999999992, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 50.39132527869696
+        }, 
+        "26": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "27": {
+            "upstream_reliability": 0.1760797342192691, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 65, 
+                "txqueue_full": 684
+            }, 
+            "upstream_num_rx": 53, 
+            "avg_current_uA": 21.626680840808557, 
+            "latency_avg_s": 128.02924528301884, 
+            "upstream_num_tx": 301, 
+            "sync_time_s": 1.01, 
+            "churns": 1, 
+            "join_time_s": 5.05, 
+            "charge": 65507.00000000072, 
+            "latency_max_s": 279.88, 
+            "lifetime_AA_years": 11.612579589075127, 
+            "latency_min_s": 0.47000000000000003, 
+            "upstream_num_lost": 248
+        }, 
+        "28": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "29": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "30": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "31": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "32": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "33": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "34": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "35": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "36": {
+            "upstream_reliability": 0.04054054054054054, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 12, 
+            "avg_current_uA": 23.275202141043412, 
+            "latency_avg_s": 210.10249999999996, 
+            "upstream_num_tx": 296, 
+            "sync_time_s": 33.33, 
+            "churns": 1, 
+            "join_time_s": 41.410000000000004, 
+            "charge": 69748.10000000056, 
+            "latency_max_s": 314.64, 
+            "packet_drops": {
+                "max_retries": 44, 
+                "txqueue_full": 73
+            }, 
+            "latency_min_s": 94.60000000000001, 
+            "lifetime_AA_years": 10.790091144624405, 
+            "upstream_num_lost": 284
+        }, 
+        "37": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "38": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 33.33, 
+            "avg_current_uA": 1.909285974097912, 
+            "charge": 5721.49999999999, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 131.5368969963095
+        }, 
+        "39": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "40": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "41": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "42": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "43": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "44": {
+            "upstream_reliability": 0.02702702702702703, 
+            "avg_hops": 2.0, 
+            "packet_drops": {
+                "max_retries": 39, 
+                "txqueue_full": 74
+            }, 
+            "upstream_num_rx": 5, 
+            "latency_avg_s": 257.68, 
+            "upstream_num_tx": 185, 
+            "sync_time_s": 779.72, 
+            "churns": 1, 
+            "join_time_s": 929.2, 
+            "charge": 48597.000000000655, 
+            "latency_max_s": 396.05, 
+            "avg_current_uA": 21.59597916703728, 
+            "latency_min_s": 145.07, 
+            "lifetime_AA_years": 11.629088478411846, 
+            "upstream_num_lost": 180
+        }, 
+        "45": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "46": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "47": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "48": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 1907.89, 
+            "avg_current_uA": 4.78482501715518, 
+            "charge": 5369.099999999999, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 52.48709234109711
+        }, 
+        "49": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "50": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "51": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "52": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "53": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 29.29, 
+            "avg_current_uA": 2.3426455738808456, 
+            "charge": 7029.599999999992, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 107.20424605049085
+        }, 
+        "54": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "55": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "56": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 937.28, 
+            "avg_current_uA": 2.612437402041355, 
+            "charge": 5467.099999999986, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 96.13304124155236
+        }, 
+        "57": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 2428.04, 
+            "avg_current_uA": 9.771247258954045, 
+            "charge": 5881.899999999977, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 25.702097782990577
+        }, 
+        "58": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "59": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "60": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "61": {
+            "packet_drops": {
+                "max_retries": 12
+            }, 
+            "sync_time_s": 1907.89, 
+            "avg_current_uA": 10.151589416367298, 
+            "charge": 11391.19999999991, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 24.73913613039774
+        }, 
+        "62": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "63": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "64": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "65": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 29.29, 
+            "avg_current_uA": 2.4555521859826377, 
+            "charge": 7368.399999999961, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 102.27498073347454
+        }, 
+        "66": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "67": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "68": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "69": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "70": {
+            "packet_drops": {
+                "max_retries": 1
+            }, 
+            "sync_time_s": 535.3, 
+            "avg_current_uA": 2.9863711067462955, 
+            "charge": 7450.099999999984, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 84.09589549807784
+        }, 
+        "71": {
+            "upstream_reliability": 0.29739776951672864, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 80, 
+            "avg_current_uA": 21.83818231785687, 
+            "latency_avg_s": 89.37337500000001, 
+            "upstream_num_tx": 269, 
+            "sync_time_s": 337.34000000000003, 
+            "churns": 1, 
+            "join_time_s": 339.36, 
+            "charge": 58802.800000000476, 
+            "latency_max_s": 239.94, 
+            "packet_drops": {
+                "max_retries": 57, 
+                "txqueue_full": 150
+            }, 
+            "latency_min_s": 0.49, 
+            "lifetime_AA_years": 11.500112456981345, 
+            "upstream_num_lost": 189
+        }, 
+        "72": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "73": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "74": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "75": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "76": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "77": {
+            "upstream_reliability": 0.21754385964912282, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 62, 
+            "avg_current_uA": 20.084679520584007, 
+            "latency_avg_s": 146.00435483870967, 
+            "upstream_num_tx": 285, 
+            "sync_time_s": 36.36, 
+            "churns": 1, 
+            "join_time_s": 181.8, 
+            "charge": 60126.30000000111, 
+            "latency_max_s": 265.84000000000003, 
+            "packet_drops": {
+                "max_retries": 60, 
+                "txqueue_full": 201
+            }, 
+            "latency_min_s": 22.330000000000002, 
+            "lifetime_AA_years": 12.504135415953753, 
+            "upstream_num_lost": 223
+        }, 
+        "78": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "79": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "80": {
+            "WARNING": "mote didn't send or receive pkts", 
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "upstream_num_rx": 0, 
+            "upstream_num_tx": 0, 
+            "sync_time_s": 2950.21, 
+            "join_time_s": 2987.58, 
+            "charge": 1871.6000000000013, 
+            "avg_current_uA": 23.456573505451825, 
+            "lifetime_AA_years": 10.706659796369863, 
+            "upstream_num_lost": 0
+        }, 
+        "81": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "82": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "83": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "84": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "85": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "86": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "87": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "88": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "89": {
+            "packet_drops": {
+                "max_retries": 7
+            }, 
+            "sync_time_s": 2586.61, 
+            "avg_current_uA": 12.587338460497511, 
+            "charge": 5581.099999999991, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 19.951918612466486
+        }, 
+        "90": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "91": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "92": {
+            "upstream_reliability": 0.15547703180212014, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 66, 
+                "txqueue_full": 193
+            }, 
+            "upstream_num_rx": 44, 
+            "latency_avg_s": 150.2059090909091, 
+            "upstream_num_tx": 283, 
+            "sync_time_s": 7.07, 
+            "churns": 2, 
+            "join_time_s": 112.11, 
+            "charge": 61975.00000000054, 
+            "latency_max_s": 278.61, 
+            "avg_current_uA": 20.501632522089675, 
+            "latency_min_s": 5.1000000000000005, 
+            "lifetime_AA_years": 12.249831921473605, 
+            "upstream_num_lost": 239
+        }, 
+        "93": {
+            "packet_drops": {
+                "max_retries": 7
+            }, 
+            "sync_time_s": 2587.62, 
+            "avg_current_uA": 11.695375016953694, 
+            "charge": 5173.799999999975, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 21.4735784143184
+        }, 
+        "94": {
+            "upstream_reliability": 0.036544850498338874, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 11, 
+            "avg_current_uA": 24.94820561144594, 
+            "latency_avg_s": 217.32, 
+            "upstream_num_tx": 301, 
+            "sync_time_s": 16.16, 
+            "churns": 1, 
+            "join_time_s": 20.2, 
+            "charge": 75189.90000000023, 
+            "latency_max_s": 301.06, 
+            "packet_drops": {
+                "max_retries": 37, 
+                "txqueue_full": 54
+            }, 
+            "latency_min_s": 112.41, 
+            "lifetime_AA_years": 10.066517665550855, 
+            "upstream_num_lost": 290
+        }, 
+        "95": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "96": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "97": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "98": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "99": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "total": {
+            "avg_hops": 1.3846153846153846, 
+            "avg_churns": 1.1538461538461537, 
+            "total_used_charge_uA": 840947.300000007, 
+            "desv_churns": 0.36080121229411, 
+            "avg_used_charge_uA": 8494.417171717243, 
+            "total_churns": 15
+        }
+    }, 
+    "3": {
+        "0": {
+            "packet_drops": {
+                "max_retries": 10, 
+                "no_route": 1
+            }
+        }, 
+        "1": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "2": {
+            "upstream_reliability": 0.1, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 72, 
+                "txqueue_full": 469
+            }, 
+            "upstream_num_rx": 28, 
+            "latency_avg_s": 188.97964285714286, 
+            "upstream_num_tx": 280, 
+            "sync_time_s": 112.11, 
+            "churns": 1, 
+            "join_time_s": 230.28, 
+            "charge": 60793.10000000064, 
+            "latency_max_s": 291.64, 
+            "avg_current_uA": 20.83460994074507, 
+            "latency_min_s": 64.48, 
+            "lifetime_AA_years": 12.054055882288067, 
+            "upstream_num_lost": 252
+        }, 
+        "3": {
+            "upstream_reliability": 0.025735294117647058, 
+            "avg_hops": 2.0, 
+            "packet_drops": {
+                "max_retries": 23, 
+                "txqueue_full": 35
+            }, 
+            "upstream_num_rx": 7, 
+            "latency_avg_s": 258.14428571428573, 
+            "upstream_num_tx": 272, 
+            "sync_time_s": 56.56, 
+            "churns": 1, 
+            "join_time_s": 285.83, 
+            "charge": 72025.3000000002, 
+            "latency_max_s": 399.91, 
+            "avg_current_uA": 24.22288662290149, 
+            "latency_min_s": 111.85000000000001, 
+            "lifetime_AA_years": 10.367944845763102, 
+            "upstream_num_lost": 265
+        }, 
+        "4": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "5": {
+            "upstream_reliability": 0.32450331125827814, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 55, 
+                "txqueue_full": 341
+            }, 
+            "upstream_num_rx": 98, 
+            "avg_current_uA": 22.431243124312573, 
+            "latency_avg_s": 94.18918367346937, 
+            "upstream_num_tx": 302, 
+            "sync_time_s": 3.0300000000000002, 
+            "churns": 1, 
+            "join_time_s": 5.05, 
+            "charge": 67898.70000000043, 
+            "latency_max_s": 237.94, 
+            "lifetime_AA_years": 11.196060384152783, 
+            "latency_min_s": 0.33, 
+            "upstream_num_lost": 204
+        }, 
+        "6": {
+            "WARNING": "mote didn't send or receive pkts", 
+            "upstream_num_rx": 0, 
+            "avg_current_uA": 19.85729299186904, 
+            "upstream_num_tx": 0, 
+            "sync_time_s": 2849.21, 
+            "join_time_s": 2923.9500000000003, 
+            "charge": 3590.000000000004, 
+            "packet_drops": {
+                "max_retries": 3
+            }, 
+            "lifetime_AA_years": 12.64732069040077, 
+            "upstream_num_lost": 0
+        }, 
+        "7": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "8": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "9": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "10": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "11": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "12": {
+            "upstream_reliability": 0.025210084033613446, 
+            "avg_hops": 2.0, 
+            "packet_drops": {
+                "max_retries": 48, 
+                "txqueue_full": 68
+            }, 
+            "upstream_num_rx": 3, 
+            "latency_avg_s": 266.3666666666667, 
+            "upstream_num_tx": 119, 
+            "sync_time_s": 543.38, 
+            "churns": 1, 
+            "join_time_s": 635.29, 
+            "charge": 51495.70000000034, 
+            "latency_max_s": 301.26, 
+            "avg_current_uA": 20.709115184467407, 
+            "latency_min_s": 206.53, 
+            "lifetime_AA_years": 12.127102016400046, 
+            "upstream_num_lost": 116
+        }, 
+        "13": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "14": {
+            "upstream_reliability": 0.17073170731707318, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 16, 
+                "txqueue_full": 25
+            }, 
+            "upstream_num_rx": 7, 
+            "latency_avg_s": 129.66714285714286, 
+            "upstream_num_tx": 41, 
+            "sync_time_s": 2498.7400000000002, 
+            "churns": 1, 
+            "join_time_s": 2537.12, 
+            "charge": 18046.89999999999, 
+            "latency_max_s": 175.87, 
+            "avg_current_uA": 33.96999585890146, 
+            "latency_min_s": 75.35000000000001, 
+            "lifetime_AA_years": 7.393040421746376, 
+            "upstream_num_lost": 34
+        }, 
+        "15": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "16": {
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "sync_time_s": 56.56, 
+            "avg_current_uA": 2.8994699741713292, 
+            "charge": 8621.399999999998, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 86.61636600778802
+        }, 
+        "17": {
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "sync_time_s": 1569.54, 
+            "avg_current_uA": 5.0425893211727795, 
+            "charge": 7364.499999999997, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 49.804086058907195
+        }, 
+        "18": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "19": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 333.3, 
+            "avg_current_uA": 2.3466088181851807, 
+            "charge": 6328.099999999978, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 107.02318621032168
+        }, 
+        "20": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "21": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "22": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 333.3, 
+            "avg_current_uA": 2.4125412541254083, 
+            "charge": 6505.899999999989, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 104.09834529542961
+        }, 
+        "23": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "24": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 2815.88, 
+            "avg_current_uA": 93.15337194096765, 
+            "charge": 19945.999999999993, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 2.696000662977254
+        }, 
+        "25": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "26": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "27": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "28": {
+            "upstream_reliability": 0.05454545454545454, 
+            "avg_hops": 2.0, 
+            "packet_drops": {
+                "max_retries": 51, 
+                "txqueue_full": 123
+            }, 
+            "upstream_num_rx": 15, 
+            "latency_avg_s": 223.06933333333336, 
+            "upstream_num_tx": 275, 
+            "sync_time_s": 56.56, 
+            "churns": 1, 
+            "join_time_s": 178.77, 
+            "charge": 63032.000000001295, 
+            "latency_max_s": 343.90000000000003, 
+            "avg_current_uA": 21.198342660353426, 
+            "latency_min_s": 91.22, 
+            "lifetime_AA_years": 11.847225820210815, 
+            "upstream_num_lost": 260
+        }, 
+        "29": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "30": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "31": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "32": {
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "sync_time_s": 2071.51, 
+            "avg_current_uA": 7.216559379857887, 
+            "charge": 6916.999999999985, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 34.8007324948196
+        }, 
+        "33": {
+            "packet_drops": {
+                "max_retries": 1
+            }, 
+            "sync_time_s": 3004.75, 
+            "avg_current_uA": 24.764356435643563, 
+            "charge": 625.3, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 10.141250921019099
+        }, 
+        "34": {
+            "upstream_reliability": 0.10702341137123746, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 32, 
+            "avg_current_uA": 18.031778984350485, 
+            "latency_avg_s": 158.48468749999998, 
+            "upstream_num_tx": 299, 
+            "sync_time_s": 24.240000000000002, 
+            "churns": 1, 
+            "join_time_s": 26.26, 
+            "charge": 54199.20000000132, 
+            "latency_max_s": 354.2, 
+            "packet_drops": {
+                "max_retries": 78, 
+                "txqueue_full": 213
+            }, 
+            "latency_min_s": 48.61, 
+            "lifetime_AA_years": 13.927719096899844, 
+            "upstream_num_lost": 267
+        }, 
+        "35": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 2070.5, 
+            "avg_current_uA": 7.382595101615402, 
+            "charge": 7083.599999999978, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 34.01805856269467
+        }, 
+        "36": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 333.3, 
+            "avg_current_uA": 2.9508287907442283, 
+            "charge": 7957.499999999962, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 85.10881868143733
+        }, 
+        "37": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "38": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "39": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "40": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "41": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "42": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "43": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "44": {
+            "upstream_reliability": 0.07222222222222222, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 13, 
+            "avg_current_uA": 19.93040264026418, 
+            "latency_avg_s": 180.44230769230768, 
+            "upstream_num_tx": 180, 
+            "sync_time_s": 1136.25, 
+            "churns": 1, 
+            "join_time_s": 1138.27, 
+            "charge": 37743.20000000029, 
+            "latency_max_s": 271.91, 
+            "packet_drops": {
+                "max_retries": 45, 
+                "txqueue_full": 357
+            }, 
+            "latency_min_s": 104.43, 
+            "lifetime_AA_years": 12.600927188698613, 
+            "upstream_num_lost": 167
+        }, 
+        "45": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "46": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "47": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "48": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "49": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 2071.51, 
+            "avg_current_uA": 6.84660246846601, 
+            "charge": 6562.399999999986, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 36.68119387216068
+        }, 
+        "50": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "51": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "52": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "53": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "54": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "55": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "56": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "57": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "58": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "59": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "60": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "61": {
+            "packet_drops": {
+                "max_retries": 3
+            }, 
+            "sync_time_s": 2815.88, 
+            "avg_current_uA": 20.679992527554642, 
+            "charge": 4428.0, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 12.144180041496
+        }, 
+        "62": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "63": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "64": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "65": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "66": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "67": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "68": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "69": {
+            "upstream_reliability": 0.0663265306122449, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 59, 
+                "txqueue_full": 141
+            }, 
+            "upstream_num_rx": 13, 
+            "latency_avg_s": 220.48461538461535, 
+            "upstream_num_tx": 196, 
+            "sync_time_s": 750.4300000000001, 
+            "churns": 1, 
+            "join_time_s": 963.54, 
+            "charge": 40368.80000000084, 
+            "latency_max_s": 294.73, 
+            "avg_current_uA": 17.708953881653485, 
+            "latency_min_s": 137.87, 
+            "lifetime_AA_years": 14.181614238184828, 
+            "upstream_num_lost": 183
+        }, 
+        "70": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "71": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "72": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "73": {
+            "upstream_reliability": 0.32, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 80, 
+            "avg_current_uA": 20.46119962697714, 
+            "latency_avg_s": 126.22462500000002, 
+            "upstream_num_tx": 250, 
+            "sync_time_s": 510.05, 
+            "churns": 1, 
+            "join_time_s": 514.09, 
+            "charge": 51561.20000000105, 
+            "latency_max_s": 306.07, 
+            "packet_drops": {
+                "max_retries": 38, 
+                "txqueue_full": 162
+            }, 
+            "latency_min_s": 0.73, 
+            "lifetime_AA_years": 12.274038526084125, 
+            "upstream_num_lost": 170
+        }, 
+        "74": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "75": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "76": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "77": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "78": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "79": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "80": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "81": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "82": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "83": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "84": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "85": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "86": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "87": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 2227.05, 
+            "avg_current_uA": 16.36091911077897, 
+            "charge": 13136.999999999975, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 15.350088268938228
+        }, 
+        "88": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "89": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "90": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "91": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "92": {
+            "upstream_reliability": 0.03468208092485549, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 6, 
+            "avg_current_uA": 24.094376325049872, 
+            "latency_avg_s": 178.24166666666667, 
+            "upstream_num_tx": 173, 
+            "sync_time_s": 1199.88, 
+            "churns": 1, 
+            "join_time_s": 1279.67, 
+            "charge": 44095.600000000275, 
+            "latency_max_s": 293.07, 
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "latency_min_s": 130.9, 
+            "lifetime_AA_years": 10.423243545437389, 
+            "upstream_num_lost": 167
+        }, 
+        "93": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "94": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "95": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "96": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "97": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "98": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "99": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "total": {
+            "avg_hops": 1.3636363636363635, 
+            "avg_churns": 1.0, 
+            "total_used_charge_uA": 660326.4000000065, 
+            "desv_churns": 0.0, 
+            "avg_used_charge_uA": 6669.963636363703, 
+            "total_churns": 11
+        }
+    }, 
+    "4": {
+        "0": {
+            "packet_drops": {
+                "max_retries": 1, 
+                "no_route": 4
+            }
+        }, 
+        "1": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 98.98, 
+            "avg_current_uA": 1.679278885848612, 
+            "charge": 4921.999999999999, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 149.55321276757604
+        }, 
+        "2": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "3": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "4": {
+            "upstream_reliability": 0.20068027210884354, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 59, 
+            "avg_current_uA": 28.675810389257975, 
+            "latency_avg_s": 109.25423728813563, 
+            "upstream_num_tx": 294, 
+            "sync_time_s": 80.8, 
+            "churns": 1, 
+            "join_time_s": 87.87, 
+            "charge": 84570.69999999963, 
+            "latency_max_s": 243.79, 
+            "packet_drops": {
+                "max_retries": 22, 
+                "txqueue_full": 96
+            }, 
+            "latency_min_s": 1.36, 
+            "lifetime_AA_years": 8.757958331510439, 
+            "upstream_num_lost": 235
+        }, 
+        "5": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "6": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "7": {
+            "upstream_reliability": 0.07462686567164178, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 36, 
+                "txqueue_full": 102
+            }, 
+            "upstream_num_rx": 10, 
+            "latency_avg_s": 198.694, 
+            "upstream_num_tx": 134, 
+            "sync_time_s": 1527.1200000000001, 
+            "churns": 1, 
+            "join_time_s": 1655.39, 
+            "charge": 24413.300000000316, 
+            "latency_max_s": 305.66, 
+            "avg_current_uA": 16.24434419248397, 
+            "latency_min_s": 118.26, 
+            "lifetime_AA_years": 15.460245703708688, 
+            "upstream_num_lost": 124
+        }, 
+        "8": {
+            "upstream_reliability": 0.46204620462046203, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 140, 
+            "avg_current_uA": 25.08060060934261, 
+            "latency_avg_s": 58.54892857142859, 
+            "upstream_num_tx": 303, 
+            "sync_time_s": 7.07, 
+            "churns": 1, 
+            "join_time_s": 10.1, 
+            "charge": 75816.90000000005, 
+            "latency_max_s": 208.93, 
+            "packet_drops": {
+                "max_retries": 48, 
+                "txqueue_full": 480
+            }, 
+            "latency_min_s": 0.3, 
+            "lifetime_AA_years": 10.01337872338928, 
+            "upstream_num_lost": 163
+        }, 
+        "9": {
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "sync_time_s": 98.98, 
+            "avg_current_uA": 2.2841877571630333, 
+            "charge": 6694.9999999999945, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 109.94785858730542
+        }, 
+        "10": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "11": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "12": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "13": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 1155.44, 
+            "avg_current_uA": 3.540670877432569, 
+            "charge": 6637.199999999996, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 70.93049910742472
+        }, 
+        "14": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "15": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "16": {
+            "upstream_reliability": 0.07011070110701106, 
+            "avg_hops": 3.0, 
+            "packet_drops": {
+                "max_retries": 39, 
+                "txqueue_full": 75
+            }, 
+            "upstream_num_rx": 19, 
+            "latency_avg_s": 147.32473684210527, 
+            "upstream_num_tx": 271, 
+            "sync_time_s": 98.98, 
+            "churns": 1, 
+            "join_time_s": 297.95, 
+            "charge": 67848.10000000062, 
+            "latency_max_s": 206.77, 
+            "avg_current_uA": 23.148289673902127, 
+            "latency_min_s": 67.27, 
+            "lifetime_AA_years": 10.8492487371349, 
+            "upstream_num_lost": 252
+        }, 
+        "17": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "18": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 2199.78, 
+            "avg_current_uA": 8.695526486955258, 
+            "charge": 7219.199999999994, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 28.881695994850894
+        }, 
+        "19": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "20": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "21": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 295.93, 
+            "avg_current_uA": 2.4532290687509755, 
+            "charge": 6707.29999999998, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 102.37183135909947
+        }, 
+        "22": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "23": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "24": {
+            "packet_drops": {
+                "max_retries": 6
+            }, 
+            "sync_time_s": 364.61, 
+            "avg_current_uA": 2.5592502410529008, 
+            "charge": 6821.399999999991, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 98.13090899938469
+        }, 
+        "25": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "26": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "27": {
+            "upstream_reliability": 0.3575418994413408, 
+            "avg_hops": 1.0, 
+            "packet_drops": {
+                "max_retries": 36, 
+                "txqueue_full": 101
+            }, 
+            "upstream_num_rx": 64, 
+            "latency_avg_s": 108.44593750000004, 
+            "upstream_num_tx": 179, 
+            "sync_time_s": 1088.78, 
+            "churns": 1, 
+            "join_time_s": 1169.58, 
+            "charge": 40358.90000000073, 
+            "latency_max_s": 219.46, 
+            "avg_current_uA": 20.79048227403423, 
+            "latency_min_s": 0.18, 
+            "lifetime_AA_years": 12.079640539415129, 
+            "upstream_num_lost": 115
+        }, 
+        "28": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "29": {
+            "upstream_reliability": 0.11262798634812286, 
+            "avg_hops": 2.0, 
+            "packet_drops": {
+                "max_retries": 17, 
+                "txqueue_full": 7
+            }, 
+            "upstream_num_rx": 33, 
+            "latency_avg_s": 120.65090909090911, 
+            "upstream_num_tx": 293, 
+            "sync_time_s": 4.04, 
+            "churns": 1, 
+            "join_time_s": 56.56, 
+            "charge": 75474.59999999998, 
+            "latency_max_s": 228.44, 
+            "avg_current_uA": 24.942365398088533, 
+            "latency_min_s": 27.02, 
+            "lifetime_AA_years": 10.068874723912987, 
+            "upstream_num_lost": 260
+        }, 
+        "30": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "31": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "32": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "33": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "34": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "35": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "36": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "37": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "38": {
+            "packet_drops": {
+                "max_retries": 4
+            }, 
+            "sync_time_s": 1487.73, 
+            "avg_current_uA": 3.7348842939303677, 
+            "charge": 5760.199999999988, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 67.2421239178816
+        }, 
+        "39": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "40": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "41": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "42": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "43": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "44": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "45": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "46": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "47": {
+            "packet_drops": {
+                "max_retries": 2
+            }, 
+            "sync_time_s": 1887.69, 
+            "avg_current_uA": 6.297152261645237, 
+            "charge": 7193.29999999997, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 39.88176592792129
+        }, 
+        "48": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "49": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 295.93, 
+            "avg_current_uA": 2.716682455094411, 
+            "charge": 7427.599999999977, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 92.4442059985578
+        }, 
+        "50": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "51": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "52": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "53": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "54": {
+            "sync_time_s": 361.58, 
+            "avg_current_uA": 2.7546638085458772, 
+            "charge": 7350.599999999989, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 91.16958364657475
+        }, 
+        "55": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "56": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "57": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "58": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "59": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "60": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "61": {
+            "upstream_reliability": 0.2939189189189189, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 87, 
+            "avg_current_uA": 20.09102959476319, 
+            "latency_avg_s": 120.94781609195404, 
+            "upstream_num_tx": 296, 
+            "sync_time_s": 72.72, 
+            "churns": 1, 
+            "join_time_s": 76.76, 
+            "charge": 59414.80000000128, 
+            "latency_max_s": 267.66, 
+            "packet_drops": {
+                "max_retries": 61, 
+                "txqueue_full": 180
+            }, 
+            "latency_min_s": 0.42, 
+            "lifetime_AA_years": 12.500183294582206, 
+            "upstream_num_lost": 209
+        }, 
+        "62": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "63": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "64": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "65": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "66": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "67": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "68": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "69": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "70": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "71": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "72": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "73": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "74": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "75": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "76": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "77": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "78": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "79": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 2199.78, 
+            "avg_current_uA": 7.92320107923198, 
+            "charge": 6577.9999999999745, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 31.696980803592005
+        }, 
+        "80": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "81": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "82": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "83": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 702.96, 
+            "avg_current_uA": 2.155313187568753, 
+            "charge": 5015.499999999991, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 116.52206925653782
+        }, 
+        "84": {
+            "packet_drops": {
+                "max_retries": 3
+            }, 
+            "sync_time_s": 2866.38, 
+            "avg_current_uA": 19.02640264026404, 
+            "charge": 3113.100000000002, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 13.199634069550537
+        }, 
+        "85": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "86": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "87": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "88": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "89": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "90": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "91": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "92": {
+            "packet_drops": {
+                "max_retries": 5
+            }, 
+            "sync_time_s": 731.24, 
+            "avg_current_uA": 1.9068541300527249, 
+            "charge": 4383.400000000002, 
+            "WARNING": "mote didn't join", 
+            "lifetime_AA_years": 131.70464827557177
+        }, 
+        "93": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "94": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "95": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "96": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "97": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "98": {
+            "upstream_reliability": 0.34, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 102, 
+            "avg_current_uA": 22.38522641773271, 
+            "latency_avg_s": 94.70803921568627, 
+            "upstream_num_tx": 300, 
+            "sync_time_s": 26.26, 
+            "churns": 1, 
+            "join_time_s": 28.28, 
+            "charge": 67239.40000000046, 
+            "latency_max_s": 265.61, 
+            "packet_drops": {
+                "max_retries": 56, 
+                "txqueue_full": 478
+            }, 
+            "latency_min_s": 0.15, 
+            "lifetime_AA_years": 11.219075823708037, 
+            "upstream_num_lost": 198
+        }, 
+        "99": {
+            "charge": 0, 
+            "WARNING": "mote didn't join"
+        }, 
+        "total": {
+            "avg_hops": 1.5, 
+            "avg_churns": 1.0, 
+            "total_used_charge_uA": 580960.500000003, 
+            "desv_churns": 0.0, 
+            "avg_used_charge_uA": 5868.287878787909, 
+            "total_churns": 8
+        }
+    }
+}
