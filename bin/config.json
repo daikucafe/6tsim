@@ -2,11 +2,11 @@
     "version":                                             0,
     "execution": {
         "numCPUs":                                         -1,
-        "numRuns":                                         5
+        "numRuns":                                         4
     },
     "settings": {
-        "combination": {
-            "exec_numMotes":                               [200]
+        "combination": {    
+            "exec_numMotes":                               [100]
         },
         "regular": {
             "exec_numSlotframesPerRun":                    3000,
@@ -23,7 +23,7 @@
 
             "rpl_daoPeriod":                               60,
             "rpl_extensions":                              ["dis_unicast"],
-            "rpl_of":                                      "RplOF0",
+            "rpl_of":                                      "RplTaOF",
 
             "fragmentation":                               "FragmentForwarding",
             "sixlowpan_reassembly_buffers_num":            1,
