@@ -2,7 +2,7 @@
     "version":                                             0,
     "execution": {
         "numCPUs":                                         -1,
-        "numRuns":                                         4
+        "numRuns":                                         12
     },
     "settings": {
         "combination": {    
@@ -14,7 +14,7 @@
 
             "secjoin_enabled":                             true,
 
-            "app":                                         "AppVariable",
+            "app":                                         "AppPeriodic",
             "app_pkPeriod":                                10,
             "app_pkPeriodVar":                             0.05,
             "app_pkLength":                                90,
