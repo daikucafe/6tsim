@@ -56,6 +56,6 @@
     "log_directory_name":                                  "startTime",
     "post": [
         "python compute_kpis.py",
-        "python plot.py"
+        "bash send.sh '12 taof for 300 motes finished'"
     ]
 }
